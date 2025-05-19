@@ -104,7 +104,6 @@ const AboutLayout = ({ state }) => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
-  // console.log(content.dynamicContent);I
   const contentFlow = {
     ourimpact: content.dynamicContent["ourimpact-about"],
     ourjourney: content.dynamicContent["ourjourney-about"],

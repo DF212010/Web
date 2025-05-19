@@ -22,7 +22,6 @@ const OurTeam = ({ content }) => {
                 data-aos-delay={index * 100}
                 key={index}
               >
-                {/* {console.log(elem)}I */}
                 <TeamIdentity key={index} details={elem} />
               </div>
             );

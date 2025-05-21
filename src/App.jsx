@@ -21,18 +21,11 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const handleLoad = () => {
-      setLoading(false);
-    };
-    if (document.readyState === 'complete') {
-      handleLoad();
-    } else {
-      window.addEventListener('load', handleLoad);
-    }
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
-  }, []);
+    console.log("Route changed:", location.pathname);
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), 800);
+    return () => clearTimeout(timer);
+  }, [location]);
 
   return loading ? (
     <Loader />

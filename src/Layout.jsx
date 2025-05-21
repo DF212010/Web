@@ -1,7 +1,7 @@
 import React from "react";
+import { useContent } from "./hooks/useContent";
 import NavBar from "./components/ui/NavBar";
 import Footer from "./components/ui/Footer";
-import { useContent } from "./hooks/useContent";
 import AboutHero from "./pages/about/sections/Hero";
 import HomeHero from "./pages/home/sections/Hero";
 import AboutLayout from "./pages/about/AboutLayout";
@@ -13,6 +13,8 @@ import ContactLayout from "./pages/contact/ContactLayout";
 import ContactHero from "./pages/contact/sections/Hero";
 import ProgramsLayout from "./pages/programs/ProgramsLayout";
 import NotFound from "./components/errors/NotFound";
+import ProgramsHero from "./pages/programs/sections/Hero";
+
 const Layout = ({ page }) => {
   const { state } = useContent();
   const pages = {
@@ -28,14 +30,22 @@ const Layout = ({ page }) => {
     about: <AboutHero />,
     youthcorner: <YouthHero />,
     contact: <ContactHero />,
+    programs: <ProgramsHero />
   };
+  console.log(state.loading);
   return (
     <>
       <header>
         <NavBar />
         {heroes[page] || ""}
       </header>
-      <main>{pages[page] || <NotFound />}</main>
+      <main>
+        {
+          pages[page] || <NotFound />
+        }
+      </main>
+
+
       <Footer />
     </>
   );

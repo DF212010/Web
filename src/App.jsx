@@ -1,11 +1,15 @@
 import React from "react";
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Layout from "./Layout";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles/globel.css";
+import Loader from "./components/ui/Loader";
+
 function App() {
+  const [loading, setLoading] = useState(true);
+  const location = useLocation();
   useEffect(() => {
     AOS.init({
       offset: 120, // Distance to trigger animation (can reduce if causing overflow)
@@ -16,7 +20,23 @@ function App() {
     });
   }, []);
 
-  return (
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+    if (document.readyState === 'complete') {
+      handleLoad();
+    } else {
+      window.addEventListener('load', handleLoad);
+    }
+    return () => {
+      window.removeEventListener('load', handleLoad);
+    };
+  }, []);
+
+  return loading ? (
+    <Loader />
+  ) : (
     <>
       <Routes>
         <Route path="/" element={<Layout page={"home"} />} />
@@ -25,7 +45,7 @@ function App() {
         <Route path="/contact" element={<Layout page={"contact"} />} />
         <Route path="/youthCorner" element={<Layout page={"youthcorner"} />} />
         <Route path="/programs" element={<Layout page={"programs"} />} />
-        <Route path="*" element={<Layout page={""}/>} />
+        <Route path="*" element={<Layout page={""} />} />
       </Routes>
     </>
   );

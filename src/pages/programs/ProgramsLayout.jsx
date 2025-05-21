@@ -7,7 +7,7 @@ const ProgramsLayout = ({ state }) => {
     const { content, loading, error } = state;
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
-    const programs=content.dynamicContent['programs-ourprograms'];
+    const programs = content.dynamicContent['programs-ourprograms'];
     const categories = ["All", "Education", "Healthcare", "Empowerment", "Development", "Environment", "Relief"];
     const [activeFilter, setActiveFilter] = React.useState("All");
     const [filteredPrograms, setFilteredPrograms] = React.useState(programs);
@@ -24,12 +24,6 @@ const ProgramsLayout = ({ state }) => {
     return (
         <div className="programs-page">
             <div className="container">
-                <div className="programs-header text-center" data-aos="fade-up">
-                    <h1 className="display-4 fw-bold">Our Programs</h1>
-                    <div className="header-separator"></div>
-                    <p className="lead">Discover the initiatives through which Durga Foundation is creating a positive impact in our communities</p>
-                </div>
-
                 <div className="filter-container" data-aos="fade-up" data-aos-delay="100">
                     <div className="filter-wrap">
                         {categories.map(category => (

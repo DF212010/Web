@@ -1,0 +1,104 @@
+/* Base Styles */
+:root {
+  /* Color Palette */
+  --primary: #a83a49;
+  --primary-dark: #800000;
+  --primary-rgb: 168, 58, 73;
+  --primary-dark-rgb: 128, 0, 0;
+  --secondary: #cdac5f;
+  --accent: #c3a078;
+  --light: #fff9f5;
+  --border: #ededed;
+  --text-muted: #777777;
+  --text-dark: #333333;
+  --white: #ffffff;
+  --error: #e74c3c;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  /* Typography */
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+}
+
+/* Utility Classes */
+.container {
+  width: 100%;
+  padding-right: var(--space-md);
+  padding-left: var(--space-md);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: var(--radius-sm);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-anchor: none;
+}
+
+.aos-section {
+  overflow-x: clip;
+  position: relative;
+}
+
+.hero-section {
+  /* Fallback solid color */
+  background-color: var(--primary-dark);
+  background-image: linear-gradient(to bottom,
+      rgba(var(--primary-dark-rgb), 0.8),
+      rgba(var(--primary-rgb), 0.8)),
+    url("https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: var(--white);
+  padding: 6rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 90vh;
+  height: max-content;
+}

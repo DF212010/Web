@@ -1,0 +1,190 @@
+{
+  "ourvalues": [
+    {
+      "id": "value-001",
+      "heading": "Integrity",
+      "description": "We uphold the highest ethical standards in all our actions and decisions.",
+      "icon": {
+        "name": "handshake",
+        "library": "font-awesome",
+        "version": "6.0.0"
+      },
+      "metadata": {
+        "order": 1
+      }
+    },
+    {
+      "id": "value-002",
+      "heading": "Compassion",
+      "description": "Every initiative stems from genuine care for people and the planet.",
+      "icon": {
+        "name": "heart",
+        "library": "font-awesome",
+        "version": "6.0.0"
+      },
+      "metadata": {
+        "order": 2
+      }
+    },
+    {
+      "id": "value-003",
+      "heading": "Inclusivity",
+      "description": "We embrace diversity and ensure our programs reach all communities.",
+      "icon": {
+        "name": "user",
+        "library": "font-awesome",
+        "version": "6.0.0"
+      },
+      "metadata": {
+        "order": 3
+      }
+    },
+    {
+      "id": "value-004",
+      "heading": "Sustainability",
+      "description": "Creating long-term solutions that empower communities to thrive.",
+      "icon": {
+        "name": "seedling",
+        "library": "font-awesome",
+        "version": "6.0.0"
+      },
+      "metadata": {
+        "order": 4
+      }
+    }
+  ],
+  "textmedia-global": {
+    "ourImpact-home": {
+      "heading": "Our Impact in the Community",
+      "img": {
+        "link": "https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Community impact visualization"
+      },
+      "paragraph": [
+        {
+          "text": "Over the past decade, our organization has made significant strides in creating positive change across underserved communities. Through our various programs and initiatives, we've directly impacted the lives of over 25,000 individuals, providing them with access to education, healthcare, and economic opportunities they wouldn't have otherwise had.",
+          "muted": false
+        },
+        {
+          "text": "Our community development projects have transformed neighborhoods, building 15 new schools, 8 health clinics, and creating sustainable urban gardens in food desert areas.",
+          "muted": true
+        },
+        {
+          "text": "The ripple effects of our work extend beyond immediate beneficiaries. For every dollar invested in our programs, we generate $4.20 in social return on investment through reduced government spending on social services and increased local economic activity.",
+          "muted": false
+        }
+      ],
+      "btn": {
+        "status": true,
+        "name": "See Our Full Impact Report",
+        "link": "/our-impact",
+        "icon": "arrowRight"
+      },
+      "btnMore": {
+        "status": false,
+        "name": "",
+        "link": "",
+        "icon": false
+      },
+      "animation": {
+        "enabled": true,
+        "image": "fade-left",
+        "content": "fade-right",
+        "threshold": 0.3,
+        "delay": 100
+      }
+    },
+    "aboutUs-home": {
+      "heading": "Who We Are and What We Stand For",
+      "img": {
+        "link": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Our team working together"
+      },
+      "paragraph": [
+        {
+          "text": "Founded in 2010, we are a non-profit organization dedicated to creating sustainable solutions for systemic social challenges. Our team of 45 passionate professionals and 300+ volunteers come from diverse backgrounds but share a common vision of equitable opportunities for all.",
+          "muted": false
+        },
+        {
+          "text": "We believe in a holistic approach to social change that combines immediate relief with long-term capacity building. Our methodology focuses on community-led development, where local stakeholders are not just beneficiaries but active participants in designing and implementing solutions.",
+          "muted": true
+        },
+        {
+          "text": "Transparency and accountability are at the core of our operations. We maintain the highest standards of governance, with 87% of every dollar donated going directly to program services.",
+          "muted": false
+        }
+      ],
+      "btn": {
+        "status": true,
+        "name": "Learn More About Our Work",
+        "link": "/about-us",
+        "icon": "arrowRight"
+      },
+      "btnMore": {
+        "status": true,
+        "name": "Join Our Team",
+        "link": "/volunteer",
+        "icon": false
+      },
+      "animation": {
+        "enabled": true,
+        "image": "fade-right",
+        "content": "fade-left",
+        "threshold": 0.3,
+        "delay": 100
+      }
+    },
+    "metadata": {
+      "version": "2.1",
+      "lastUpdated": "2023-11-20",
+      "imageSources": {
+        "our-impact": "Unsplash",
+        "about-us": "Unsplash"
+      }
+    }
+  },
+  "programs-joinus": [
+    {
+      "title": "For Students",
+      "icon": "graduationCap",
+      "items": [
+        "Mentorship programs",
+        "Scholarship opportunities",
+        "Career workshops",
+        "Leadership training"
+      ],
+      "color": "primary"
+    },
+    {
+      "title": "For Volunteers",
+      "icon": "handsHelping",
+      "items": [
+        "Mentorship opportunities",
+        "Skill-based volunteering",
+        "Community projects",
+        "Training & development"
+      ],
+      "color": "success"
+    },
+    {
+      "title": "For Donors",
+      "icon": "donate",
+      "items": [
+        "Transparent funding",
+        "Impact reports",
+        "Scholarship funds",
+        "Program sponsorship"
+      ],
+      "color": "warning"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2023-08-01T12:00:00Z",
+    "security": {
+      "allowedOrigins": ["http://localhost:5173/"],
+      "contentTypes": ["application/json"],
+      "cacheControl": "max-age=86400"
+    }
+  }
+}

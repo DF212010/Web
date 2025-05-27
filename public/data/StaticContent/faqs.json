@@ -1,0 +1,84 @@
+{
+  "support": [
+    {
+      "id": "support-1",
+      "question": "How quickly can I expect a response to my inquiry?",
+      "answer": "Our team typically responds to inquiries within 24 hours during business days. For urgent matters, please call our support line for immediate assistance."
+    },
+    {
+      "id": "support-2",
+      "question": "What are your business hours?",
+      "answer": "We're open Monday to Friday from 9AM to 5PM, and Saturdays from 10AM to 2PM. We're closed on Sundays and public holidays."
+    },
+    {
+      "id": "support-3",
+      "question": "Do you offer 24/7 customer support?",
+      "answer": "While we don't offer 24/7 support, our team monitors critical issues outside business hours. For emergencies, please call our support line."
+    },
+    {
+      "id": "support-4",
+      "question": "Where is your office located?",
+      "answer": "Our headquarters is located at 123 Business Avenue, Suite 200, New York, NY 10001. We also have satellite offices in several other cities."
+    }
+  ],
+  "home": [
+    {
+      "id": "home-1",
+      "question": "What is Durga Foundation's mission?",
+      "answer": "Durga Foundation is dedicated to empowering underprivileged communities through education, healthcare, and sustainable development initiatives."
+    },
+    {
+      "id": "home-2",
+      "question": "How can I donate to Durga Foundation?",
+      "answer": "You can donate through our website's donation portal, bank transfer, or by visiting our office. We accept one-time and recurring donations."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "question": "What educational programs does Durga Foundation offer?",
+      "answer": "We run free schools, after-school tutoring, vocational training, and scholarship programs for deserving students."
+    },
+    {
+      "id": "edu-2",
+      "question": "How can I enroll my child in your education programs?",
+      "answer": "Visit our education centers with necessary documents (birth certificate, income proof) for admission assessment."
+    }
+  ],
+  "healthcare": [
+    {
+      "id": "health-1",
+      "question": "What healthcare services do you provide?",
+      "answer": "We operate free clinics, mobile medical units, vaccination drives, and health awareness campaigns."
+    },
+    {
+      "id": "health-2",
+      "question": "Are your medical services completely free?",
+      "answer": "Yes, all our basic healthcare services are free for underprivileged communities."
+    }
+  ],
+  "volunteer": [
+    {
+      "id": "vol-1",
+      "question": "How can I volunteer with Durga Foundation?",
+      "answer": "Fill out our volunteer application form on the website or visit our office."
+    },
+    {
+      "id": "vol-2",
+      "question": "Do you accept international volunteers?",
+      "answer": "Yes, we welcome international volunteers with proper documentation."
+    }
+  ],
+  "donation": [
+    {
+      "id": "donate-1",
+      "question": "How are my donations used?",
+      "answer": "80% goes directly to programs, 15% to operational costs, and 5% to fundraising."
+    },
+    {
+      "id": "donate-2",
+      "question": "Is my donation tax-deductible?",
+      "answer": "Yes, all donations are tax-exempt under Section 80G of the Income Tax Act."
+    }
+  ]
+}

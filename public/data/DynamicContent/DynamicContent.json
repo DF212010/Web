@@ -337,7 +337,7 @@
         "subtitle": "Empowering Dreams, Enabling Futures",
         "programBy": "Durga Foundation",
         "image": {
-          "src": "/assets/images/programs-scholarship.webp",
+          "src": "/assets/images/programs-details-scholarship.webp",
           "alt": "Students supported by Durga Foundation Scholarship"
         }
       },
@@ -358,7 +358,7 @@
           "id": "apply",
           "icon": "userGraduate",
           "title": "How to Apply",
-          "content": "🎓 Are you a student needing financial support to continue your education?<br>👉 <a href='https://forms.gle/kwAfxt9hu895crBy5<br>Eligibility'>Click Here</a> \t criteria and application process are simple and transparent to ensure maximum outreach."
+          "content": "🎓 Are you a student needing financial support to continue your education?<br>👉 <a href='https://forms.gle/7L84q6ikLgPT8UrW8<br>Eligibility'>Click Here</a> \t criteria and application process are simple and transparent to ensure maximum outreach."
         },
         {
           "id": "sponsor",
@@ -369,7 +369,7 @@
       ],
       "cta": {
         "text": "Support a Student's Education",
-        "icon": "fas fa-hands-helping",
+        "icon": "handsHelping",
         "buttonLink": "/donate"
       },
       "meta": {

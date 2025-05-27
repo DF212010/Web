@@ -35,7 +35,6 @@ const Layout = ({ page }) => {
     contact: <ContactHero />,
     programs: <ProgramsHero />
   };
-  console.log(state.loading);
   return (
     <>
       <header>
@@ -44,7 +43,6 @@ const Layout = ({ page }) => {
       </header>
       <main>
         <BacktoTop />
-        {console.log(`Page not found: ${page}`)}
         {
           pages[page] || <NotFound />
         }

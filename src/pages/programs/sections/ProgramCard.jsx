@@ -8,9 +8,6 @@ const ProgramCard = ({ program }) => {
   const handleLearnM = () => {
     navigate(`/programs/${program.id}`);
   }
-  useEffect(() => {
-    console.log(`Program Card mounted for: ${program.title}`);
-  }, [program]);
   return (
     <div className="program-card">
       <div className="program-image">

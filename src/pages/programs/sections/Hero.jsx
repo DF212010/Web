@@ -4,7 +4,7 @@ import { faHandHoldingHeart, faLightbulb, faUsers } from '@fortawesome/free-soli
 
 const Hero = () => {
   const heroStyle = {
-    'background-image': 'linear-gradient(to bottom,rgba(var(--primary-dark-rgb), 0.8),rgba(var(--primary-rgb), 0.8)),url("/assets/images/page-programs-hero.webp")'
+    backgroundImage: 'linear-gradient(to bottom,rgba(var(--primary-dark-rgb), 0.8),rgba(var(--primary-rgb), 0.8)),url("/assets/images/page-programs-hero.webp")'
   }
   return (
     <section className="hero-section" style={heroStyle}>

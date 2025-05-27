@@ -716,7 +716,7 @@
 
 /* Right Section Styles */
 .right-section {
-  height: max-content;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background: white;
@@ -746,6 +746,7 @@
 .accordion-container {
   flex: 1;
   padding: 2rem 2.5rem;
+  overflow-y: auto;
 }
 
 .accordion-item {

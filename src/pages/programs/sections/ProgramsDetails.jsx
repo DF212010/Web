@@ -15,18 +15,15 @@ const ProgramsDetails = ({ state }) => {
         return <div>No content available</div>
     }
     const programs = content.dynamicContent["programs-details-ourprograms"]
-    console.log(programs)
     if (!programs || !Array.isArray(programs)) {
         return <div>No programs available</div>
     }
     const getPrograms = (id) => {
         return programs.find((elem) => {
-            console.log(elem.id);
             return elem.id === Number(id);
         });
     };
     const program = getPrograms(programId)
-    console.log(program)
     if (!program) {
         return <div>Program not found</div>
     }
@@ -96,7 +93,7 @@ const ProgramsDetails = ({ state }) => {
 
                         <div className="cta-section" style={ctaStyle}>
                             <button className="cta-button" onClick={() => window.location.href = program.cta.buttonLink}>
-                                <i className={`${program.cta.icon} me-2`}></i>
+                                <FontAwesomeIcon icon={iconMap[program.cta.icon]} className='me-2' />
                                 {program.cta.text}
                             </button>
                         </div>

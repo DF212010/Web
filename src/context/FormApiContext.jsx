@@ -8,7 +8,6 @@ export const FormApiProvider = ({ children }) => {
     error: null,
   })
   useEffect(() => {
-    console.log('we got an error');
     send_req(formState);
   }, [formState])
   return (

@@ -390,66 +390,480 @@
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "page": {
-        "title": "Entrepreneurship Program",
-        "subtitle": "Empowering Youth to Become Job Creators",
+        "title": "Career Counselling Program",
+        "subtitle": "Guiding Students Toward Successful Careers",
         "programBy": "Durga Foundation",
         "image": {
-          "src": "/images/entrepreneurship-program.jpg",
-          "alt": "Youth participating in entrepreneurship training"
+          "src": "/assets/images/programs-details-career-counselling.webp",
+          "alt": "Career counselling sessions by Durga Foundation"
         }
       },
       "accordion": [
         {
           "id": "overview",
-          "icon": "fas fa-lightbulb",
-          "title": "Program Overview",
-          "content": "The Entrepreneurship Program by Durga Foundation empowers young minds to become job creators instead of job seekers. The program equips participants with the tools, mindset, and skills to turn ideas into sustainable ventures and lead change in their communities."
+          "icon": "graduationCap",
+          "title": "Program Overview and Details",
+          "content": "The Career Counselling Program by Durga Foundation is designed to help students—especially girls and youth from under-resourced communities—make informed and confident career decisions.<br>Targeted at students in Classes 9 to 12, the program equips them with the knowledge, tools, and mentorship they need to navigate their educational and professional journeys.<br>We deliver sessions through school-based workshops and community outreach, ensuring accessibility even in rural and semi-urban regions."
         },
         {
-          "id": "learnings",
-          "icon": "fas fa-brain",
-          "title": "Key Learning Areas",
-          "content": "Idea Generation & Validation, Business Planning & Strategy, Financial Literacy & Budgeting, Digital Marketing & Branding, Real-World Case Studies & Mentorship, Leadership & Personal Growth."
+          "id": "highlights",
+          "icon": "lightbulb",
+          "title": "Program Highlights",
+          "content": "🔍 <strong>Psychometric Assessments</strong><br>Identify strengths, interests, and career compatibility through expert-designed tests.<br><br>📚 <strong>Career Awareness Workshops</strong><br>Explore a wide range of career options—healthcare, technology, entrepreneurship, public service, and more.<br><br>🛠️ <strong>Skill-Building Sessions</strong><br>Learn essential life and career skills like resume writing, interview techniques, communication, and planning.<br><br>👩‍🏫 <strong>Mentorship & Role Models</strong><br>Ongoing support and guidance from professionals and industry mentors who inspire and lead by example."
         },
         {
-          "id": "outcomes",
-          "icon": "fas fa-seedling",
-          "title": "Entrepreneurial Mindset & Growth",
-          "content": "The program fosters creativity, innovation, leadership, and resilience, helping youth develop an entrepreneurial mindset to drive their own futures."
+          "id": "impact",
+          "icon": "chartLine",
+          "title": "Success Stories & Impact",
+          "content": "🎯 Reached thousands of students across rural and semi-urban areas in hundreds of schools.<br>✅ Helped students gain clarity on career paths aligned with their aspirations.<br>👩 Empowered girls and first-generation learners to envision successful futures.<br>🤝 Building a growing network of trained mentors and partner schools.<br>📈 Goal: Reach thousands more in the coming years."
         },
         {
-          "id": "subprograms",
-          "icon": "fas fa-network-wired",
-          "title": "Programs Under the Entrepreneurship Umbrella",
-          "content": "Industrial Training Program – 7-Day Comprehensive Program: Hands-on exposure to real-world business environments and operational learning.<br>Leadership Boot Camp – 5-Day Youth Development Program: Focused on leadership, problem-solving, and communication to prepare youth for entrepreneurial journeys and personal growth."
-        },
-        {
-          "id": "customization",
-          "icon": "fas fa-cogs",
-          "title": "Customized for Student Needs",
-          "content": "The program structure is customized based on the student group, their background, and learning needs."
+          "id": "join",
+          "icon": "userPlus",
+          "title": "Join Us Today",
+          "content": "<strong>👩‍🎓 Students</strong><br>Looking for direction in your career journey?<br>👉 <a href='/register'>Register now</a> to plan your future with confidence.<br><br><strong>🏫 Schools & Educators</strong><br>Want to bring impactful career guidance to your students?<br>👉 <a href='/partner'>Partner with us</a> to offer our counselling program in your institution."
         }
       ],
       "cta": {
-        "text": "🚀 Register Now",
-        "icon": "fas fa-rocket",
-        "buttonLink": "/register-entrepreneurship"
+        "text": "Support Career Guidance for Students",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "career counselling",
+          "education",
+          "student mentorship",
+          "girls empowerment",
+          "career planning"
+        ],
+        "targetAudience": [
+          "students",
+          "schools",
+          "educators",
+          "mentors"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "page": {
+        "title": "Competitive Exam Preparation Program",
+        "subtitle": "Empowering Youth to Ace Competitive Exams",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-competitive-exam.webp",
+          "alt": "Students preparing for competitive exams"
+        }
+      },
+      "accordion": [
+        {
+          "id": "overview",
+          "icon": "book",
+          "title": "Program Overview and Details",
+          "content": "The Competitive Exam Preparation Program by Durga Foundation is dedicated to supporting youth from underserved communities in preparing for key competitive exams such as NDA, CDS, CUET, JEE, and NCET. Our program combines high-quality study materials, expert guidance, and mentorship to help students develop effective strategies, sharpen their skills, and build the confidence needed to succeed."
+        },
+        {
+          "id": "resources",
+          "icon": "clipboardList",
+          "title": "Resources and Personalized Support",
+          "content": "📚 Access to a wide range of study books, practice papers, and online test subscriptions tailored to various competitive exams<br><br>🎯 Personalized coaching and exam strategies by experienced mentors<br><br>📈 Regular progress tracking to ensure steady improvement<br><br>🌍 Focus on students from rural and underserved areas"
+        },
+        {
+          "id": "why-join",
+          "icon": "checkCircle",
+          "title": "Why Join Our Program?",
+          "content": "✅ Extensive study materials and online resources<br>✅ One-on-one mentorship and career guidance<br>✅ Test-taking strategies and confidence-building sessions<br>✅ Special focus on youth from rural and underserved communities<br><br>Our mission is to help young aspirants clear competitive exams and unlock promising career opportunities in government, defense, engineering, and beyond."
+        },
+        {
+          "id": "register",
+          "icon": "userGraduate",
+          "title": "Get Started with Your Exam Preparation",
+          "content": "🎓 <strong>Register as a Student</strong><br>Ready to boost your exam preparation with expert support?<br>👉 <a href='/register-competitive-exam'>Join Now</a><br><br><strong>Partner with Us</strong><br>Bring competitive exam coaching to your community.<br>👉 <a href='/partner-with-us'>Become a Partner</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support Competitive Exam Coaching",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "competitive exams",
+          "education support",
+          "youth development",
+          "government exams",
+          "career guidance"
+        ],
+        "targetAudience": [
+          "students",
+          "aspirants",
+          "rural youth",
+          "educators"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "page": {
+        "title": "E-Literacy Program for Students",
+        "subtitle": "Digital Skills Training by Durga Foundation",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-e-literacy.webp",
+          "alt": "Students learning computer skills under the E-Literacy Program"
+        }
+      },
+      "accordion": [
+        {
+          "id": "overview",
+          "icon": "laptop",
+          "title": "Program Overview and Details",
+          "content": "In today’s rapidly evolving digital world, essential computer and internet skills are crucial—especially for students from rural and underserved communities. The E-Literacy Program by Durga Foundation aims to bridge the digital divide by empowering young learners, particularly girls, with practical knowledge in:<br><br>🖥️ Computer basics<br>🌐 Internet navigation<br>🔐 Digital safety<br>📋 Productivity tools<br><br>Our hands-on workshops in government schools and community centers enable students to confidently explore technology, unlocking new educational and employment opportunities."
+        },
+        {
+          "id": "mission",
+          "icon": "bullseye",
+          "title": "Our Mission",
+          "content": "To build a digitally literate generation equipped not only for education, employment, and self-reliance, but also to foster digital empowerment, critical thinking, and safe online behavior. We strive to bridge the digital divide by ensuring equal access to technology, especially for girls and underserved communities, enabling youth to confidently navigate the digital world, innovate, and contribute positively to society."
+        },
+        {
+          "id": "impact",
+          "icon": "chartBar",
+          "title": "Program Impact & Success Stories",
+          "content": "🌟 2500+ students trained across rural schools<br>📈 75% of participants report improved digital confidence<br>👩‍💻 Girls’ enrollment increased by 60%, empowering young women in tech<br><br><em>Testimonial</em><br>\"Before this program, I was scared to use a computer. Now, I can confidently browse the internet, create documents, and even help my friends learn! This training changed my life.\"<br>— <strong>Anita Singh</strong>, Program Participant"
+        },
+        {
+          "id": "register",
+          "icon": "userPlus",
+          "title": "Get Involved",
+          "content": "<strong>Register Now as a Student</strong><br>Eager to learn digital skills and explore the online world with confidence?<br>👉 <a href='/register-e-literacy'>Click here to register</a><br><br><strong>Register Your School</strong><br>Want to bring digital literacy training to your students?<br>👉 <a href='/enroll-school-e-literacy'>Click here to enroll your school</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support Digital Literacy for Students",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "digital skills",
+          "e-literacy",
+          "student training",
+          "girls empowerment",
+          "rural education"
+        ],
+        "targetAudience": [
+          "students",
+          "schools",
+          "educators",
+          "donors"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "page": {
+        "title": "Software Engineering Program",
+        "subtitle": "Step into the world of technology and innovation",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-software-engineering.webp",
+          "alt": "Students learning software engineering with Durga Foundation"
+        }
+      },
+      "accordion": [
+        {
+          "id": "overview",
+          "icon": "laptopCode",
+          "title": "Program Overview and Details",
+          "content": "Step into the world of technology and innovation with the Software Engineering Program by Durga Foundation.<br>Designed for aspiring tech professionals, this program equips students with industry-relevant technical skills and a strong foundation for careers in software development, IT, and emerging tech fields."
+        },
+        {
+          "id": "topics",
+          "icon": "code",
+          "title": "Key Topics Covered",
+          "content": "🎯 <strong>Programming Fundamentals</strong><br>💻 <strong>Java Programming</strong><br>🗄️ <strong>Database Management Systems (DBMS)</strong><br>🧮 <strong>Oracle & SQL</strong><br>🌐 <strong>Web Development</strong><br>☁️ <strong>Cloud Computing & Kubernetes</strong><br>🛠️ <strong>Project-Based Learning & Real-World Applications</strong>"
+        },
+        {
+          "id": "mentors",
+          "icon": "chalkboardTeacher",
+          "title": "Learn from Industry Experts",
+          "content": "Our experienced facilitators bring hands-on knowledge and mentorship to guide you through every step with practical insights, real-world challenges, and job-ready training:<br><br>👨‍🏫 Mr. Aman Garg<br>👨‍🏫 Mr. Vinayak Awasthi<br>👨‍🏫 Mr. Paras Pandya<br>👨‍🏫 Mr. Arif"
+        },
+        {
+          "id": "register",
+          "icon": "userGraduate",
+          "title": "Register for the Program",
+          "content": "💻 Ready to start your journey into tech?<br>👉 <a href='/register-software-engineering'>Click here to register for the Software Engineering Program</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support Tech Education for Youth",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "software engineering",
+          "tech careers",
+          "programming",
+          "cloud computing",
+          "student training"
+        ],
+        "targetAudience": [
+          "students",
+          "aspiring developers",
+          "tech learners",
+          "mentors"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "page": {
+        "title": "Advanced English Program",
+        "subtitle": "Speak with Confidence. Write with Impact. Work with Excellence.",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-advanced-english.webp",
+          "alt": "Students learning English at Durga Foundation"
+        }
+      },
+      "accordion": [
+        {
+          "id": "overview",
+          "icon": "language",
+          "title": "Program Overview and Details",
+          "content": "The Advanced English Program empowers youth to master spoken and written English—enhancing their academic success and employability.<br><br>Through interactive sessions, real-life practice, and confidence-building activities, participants will:<br><br>✅ Develop fluency & vocabulary<br>✅ Improve grammar & writing skills<br>✅ Build professional communication skills<br>✅ Prepare for interviews & workplace success"
+        },
+        {
+          "id": "facilitator",
+          "icon": "userTie",
+          "title": "Expert Facilitator",
+          "content": "👩‍🏫 <strong>Mrs. Neeru Batra</strong><br>Led by experienced educator Mrs. Neeru Batra, the program focuses on communicative English, making students job-ready and confident in real-world environments."
+        },
+        {
+          "id": "impact",
+          "icon": "chartLine",
+          "title": "Program Impact",
+          "content": "Over 100+ youth have been successfully placed in jobs through the Advanced English Program.<br><br>Some inspiring success stories:<br><br>🌟 <strong>Deepika Mall</strong> – Successfully placed in a reputed job<br>🌟 <strong>Sanjay</strong> – Working at Amazon<br>🌟 <strong>Yadav Pooja Yogendra</strong> – Now working as a Teacher<br><br>Their achievements reflect the program's real-world impact on lives and livelihoods."
+        },
+        {
+          "id": "register",
+          "icon": "bookOpen",
+          "title": "Register for the Program",
+          "content": "📘 Want to enhance your English and become workplace-ready?<br>👉 <a href='/register-advanced-english'>Click here to register for the program</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support English Learning for Youth",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "english program",
+          "communication skills",
+          "job readiness",
+          "youth development",
+          "language training"
+        ],
+        "targetAudience": [
+          "students",
+          "job seekers",
+          "young professionals",
+          "language learners"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "page": {
+        "title": "DF Workstation – Youth Employment in the Service Sector",
+        "subtitle": "An Initiative by Durga Foundation",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-df-workstation.webp",
+          "alt": "Youth engaged in service sector employment under DF Workstation"
+        }
+      },
+      "accordion": [
+        {
+          "id": "overview",
+          "icon": "breifcase",
+          "title": "Program Overview and Details",
+          "content": "DF Workstation connects youth from developing cities with skill-based job placements in the service industry. In partnership with companies like Constems AI and Ibrandriser Private Limited, we provide career readiness training and employment opportunities to empower young talent."
+        },
+        {
+          "id": "mission",
+          "icon": "bullseye",
+          "title": "Our Mission",
+          "content": "To empower youth from developing cities by providing industry-relevant skills, career readiness training, and meaningful job placements in the service sector. We aim to create a pathway for economic independence, professional growth, and sustainable livelihoods.<br><br>Through partnerships with forward-thinking companies, we strive to build a strong workforce that supports local economies, reduces unemployment, and transforms lives—targeting 100 job placements in 3 years as a milestone towards broader social impact."
+        },
+        {
+          "id": "impact",
+          "icon": "chartLine",
+          "title": "Program Impact",
+          "content": "So far, 10 youth have joined our journey, taking their first steps toward career success, with many more ready to follow. Early participants include:<br><br>• Vartika<br>• Aditi<br>• Ajit<br>• Dilip<br>…and many more passionate young people gearing up for their future!"
+        },
+        {
+          "id": "register",
+          "icon": "userPlus",
+          "title": "Get Started Today",
+          "content": "<strong>Register as a Youth</strong><br>Gain training and job placement opportunities in the service sector.<br>👉 <a href='/register-youth-df-workstation'>Register Here</a><br><br><strong>Register as a Company</strong><br>Hire skilled, trained youth ready to contribute to your business.<br>👉 <a href='/register-company-df-workstation'>Register Here</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support Youth Employment",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "youth employment",
+          "service sector",
+          "job readiness",
+          "career development",
+          "skills training"
+        ],
+        "targetAudience": [
+          "youth",
+          "employers",
+          "corporate partners",
+          "donors"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "page": {
+        "title": "Entrepreneurship Program",
+        "subtitle": "From Job Seekers to Changemakers",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-entrepreneurship.webp",
+          "alt": "Youth participating in Durga Foundation's Entrepreneurship Program"
+        }
+      },
+      "accordion": [
+        {
+          "id": "overview",
+          "icon": "lightbulb",
+          "title": "Program Overview and Details",
+          "content": "The Entrepreneurship Program by Durga Foundation empowers young minds—especially from underserved communities—to become job creators rather than job seekers.<br>Through experiential learning, real-world exposure, and continuous mentorship, we help youth develop the mindset, skills, and confidence to build sustainable ventures and drive change in their communities.<br>The program is customized for different student groups, considering their backgrounds, needs, and aspirations."
+        },
+        {
+          "id": "key-learning",
+          "icon": "bookOpen",
+          "title": "Key Learning Areas",
+          "content": "💡 <strong>Idea Generation & Validation</strong><br>Learn how to identify problems, generate innovative solutions, and validate them in real-world contexts.<br><br>📈 <strong>Business Planning & Strategy</strong><br>Understand how to build a business model, define goals, and create execution roadmaps.<br><br>💰 <strong>Financial Literacy & Budgeting</strong><br>Gain practical skills in money management, investment planning, and budgeting for small businesses.<br><br>🌐 <strong>Digital Marketing & Branding</strong><br>Learn to promote your idea using digital tools, social media, and content strategies.<br><br>📚 <strong>Real-World Case Studies & Mentorship</strong><br>Learn from successful entrepreneurs and receive guidance to shape your journey.<br><br>🌱 <strong>Leadership & Personal Growth</strong><br>Develop confidence, communication, and problem-solving skills essential for any entrepreneur."
+        },
+        {
+          "id": "programs",
+          "icon": "breifcase",
+          "title": "Programs Under the Entrepreneurship Umbrella",
+          "content": "🔧 <strong>Industrial Training Program</strong><br><em>Duration: 7 Days | Focus: Business Exposure & Operations</em><br>Immersive training in real business environments<br>Understanding of daily operations, logistics, and customer engagement<br><br>🔥 <strong>Leadership Boot Camp</strong><br><em>Duration: 5 Days | Focus: Youth Development & Leadership</em><br>Activities around teamwork, innovation, and vision-building<br>Builds personal resilience, strategic thinking, and leadership qualities"
+        },
+        {
+          "id": "impact",
+          "icon": "chartLine",
+          "title": "Success Stories & Impact",
+          "content": "💼 Built entrepreneurial mindsets in hundreds of rural and semi-urban youth.<br>🚀 Enabled first-time entrepreneurs to ideate and launch local businesses.<br>🌍 Fostered a generation of youth leaders who are driving community change.<br>🎯 Goal: Expand access to entrepreneurship learning for thousands more."
+        },
+        {
+          "id": "apply",
+          "icon": "userPlus",
+          "title": "Register for the Program",
+          "content": "🚀 Are you ready to start your journey as a changemaker?<br>👉 <a href='/register-entrepreneurship'>Click here to register for the Entrepreneurship Program</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support Young Entrepreneurs",
+        "icon": "handsHelping",
+        "buttonLink": "/donate"
       },
       "meta": {
         "createdBy": "Durga Foundation",
         "tags": [
           "entrepreneurship",
-          "youth development",
-          "job creators",
-          "leadership",
-          "startup skills"
+          "youth empowerment",
+          "business skills",
+          "leadership training",
+          "career development"
         ],
         "targetAudience": [
-          "young entrepreneurs",
           "students",
-          "rural innovators"
+          "aspiring entrepreneurs",
+          "rural youth",
+          "mentors"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "page": {
+        "title": "Moose to Mouse Program",
+        "subtitle": "Digital Empowerment for Mushar Youth",
+        "programBy": "Durga Foundation",
+        "image": {
+          "src": "/assets/images/programs-details-moose-to-mouse.webp",
+          "alt": "Mushar youth learning digital skills under the Moose to Mouse program"
+        }
+      },
+      "accordion": [
+        {
+          "id": "about",
+          "icon": "mousePointer",
+          "title": "About the Program",
+          "content": "The Moose to Mouse Program by Durga Foundation is a pioneering initiative dedicated to empowering youth from the Mushar community through essential digital literacy and computer skills training. Inspired by the symbolic transformation from a “Moose” (rat) to a “Mouse” (computer mouse), this program breaks traditional barriers and opens doors to the digital job market."
+        },
+        {
+          "id": "overview",
+          "icon": "bullseye",
+          "title": "Program Overview",
+          "content": "We focus on equipping Mushar youth with the skills needed to thrive in today’s tech-driven workplace. Through hands-on computer training, digital literacy workshops, and job readiness sessions, participants gain the confidence and expertise required for sustainable careers."
+        },
+        {
+          "id": "offerings",
+          "icon": "lightbulb",
+          "title": "What We Offer",
+          "content": "• Basic to Advanced Computer Skills<br>• Digital Literacy and Online Safety<br>• Job Readiness & Career Guidance<br>• Mentoring and Support Networks<br><br>This comprehensive approach ensures students not only learn technology but also understand how to apply it effectively in real-world job scenarios."
+        },
+        {
+          "id": "register",
+          "icon": "rocket",
+          "title": "Join the Digital Revolution",
+          "content": "<strong>Register as a Participant</strong><br>Ready to gain digital skills and access new career opportunities?<br>👉 <a href='/register-moose-to-mouse'>Sign Up Here</a><br><br><strong>Partner with Us</strong><br>Help us extend digital literacy to more Mushar youth by collaborating with Durga Foundation.<br>👉 <a href='/partner-moose-to-mouse'>Partner Now</a>"
+        }
+      ],
+      "cta": {
+        "text": "Support Digital Empowerment",
+        "icon": "laptopCode",
+        "buttonLink": "/donate"
+      },
+      "meta": {
+        "createdBy": "Durga Foundation",
+        "tags": [
+          "digital literacy",
+          "Mushar youth",
+          "skills training",
+          "community development",
+          "technology empowerment"
+        ],
+        "targetAudience": [
+          "Mushar community",
+          "students",
+          "NGOs",
+          "tech educators"
         ]
       }
     }

@@ -33,11 +33,6 @@ const HeroCarousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active c-item">
-            <img
-              src="assets/images/elisha-terada-LOAqoMw1vow-unsplash.jpg"
-              className="d-block w-100 c-img"
-              alt="..."
-            />
             <div className="carousel-caption d-none d-md-block text-white mt-3 c-cap">
               <div className="s-txt-box">
                 <h5 className="fw-bold display-6 text-shadow">
@@ -55,11 +50,6 @@ const HeroCarousel = () => {
             </div>
           </div>
           <div className="carousel-item c-item">
-            <img
-              src="./assets/images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
-              className="d-block w-100 c-img"
-              alt="..."
-            />
             <div className="carousel-caption d-none d-md-block text-white mt-3 c-cap">
               <div className="s-txt-box">
                 <h5 className="fw-bold display-6 text-shadow">
@@ -77,11 +67,6 @@ const HeroCarousel = () => {
             </div>
           </div>
           <div className="carousel-item c-item">
-            <img
-              src="./assets/images/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg"
-              className="d-block w-100 c-img"
-              alt="..."
-            />
             <div className="carousel-caption d-none d-md-block text-white mt-3 c-cap">
               <div className="s-txt-box">
                 <h5 className="fw-bold display-6 text-shadow">

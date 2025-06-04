@@ -1,19 +1,17 @@
 /* Base Styles */
 :root {
-  /* Color Palette */
-  --primary: #a83a49;
-  --primary-dark: #800000;
-  --primary-rgb: 168, 58, 73;
-  --primary-dark-rgb: 128, 0, 0;
-  --secondary: #cdac5f;
-  --accent: #c3a078;
-  --light: #fff9f5;
-  --border: #ededed;
-  --text-muted: #777777;
-  --text-dark: #333333;
-  --white: #ffffff;
+  --primary: #800000;
+  --primary-dark: #a83a49;
+  --primary-rgb: 128, 0, 0;
+  --primary-dark-rgb: 168, 58, 73;
+  --secondary: #FCA401;
+  --accent: #FF5252;
   --error: #e74c3c;
-
+  --light: #FAF9F6;
+  --white: #FFFFFF;
+  --border: #E0E0E0;
+  --text-dark: #212121;
+  --text-muted: #616161;
   /* Spacing */
   --space-xs: 0.5rem;
   --space-sm: 1rem;

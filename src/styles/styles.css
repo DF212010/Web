@@ -4,7 +4,23 @@
 }
 
 .c-item {
-  height: 550px;
+  /* Fallback solid color */
+  background-color: var(--primary-dark);
+  background-image: linear-gradient(to bottom,
+      rgba(var(--primary-dark-rgb), 0.8),
+      rgba(var(--primary-rgb), 0.8)),
+    url("https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: var(--white);
+  padding: 6rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 90vh;
+  height: max-content;
 }
 
 .c-img {
@@ -74,15 +90,18 @@
 
 .scroll-box {
   scroll-behavior: smooth;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
   display: flex;
   padding: 1rem 0;
   scroll-padding: 0 1rem;
 }
 
 .scroll-box::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none;
+  /* Chrome, Safari, Opera */
 }
 
 .u-events-c .content-section {
@@ -158,6 +177,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateY(0);
@@ -206,6 +226,7 @@
 .or-srv-box {
   max-width: 1250px;
 }
+
 .values-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));

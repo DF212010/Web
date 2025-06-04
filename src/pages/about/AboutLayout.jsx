@@ -11,7 +11,6 @@ const AboutLayout = ({ state }) => {
   const { content, loading, error } = state;
   useEffect(() => {
     const counters = document.querySelectorAll(".counter");
-
     counters.forEach((counter) => {
       const target = parseInt(counter.getAttribute("data-target"));
       const duration = 2000; // Animation duration in milliseconds
@@ -51,7 +50,7 @@ const AboutLayout = ({ state }) => {
     ourimpact: content.dynamicContent["ourimpact-about"],
     ourjourney: content.dynamicContent["ourjourney-about"],
     ourmission: content.dynamicContent["ourmission-about"],
-    volunteers: content.dynamicContent["volunteers-global"],
+    boardMembers: content.dynamicContent["board-members-global"],
     ourvalues: content.dynamicContent["ourvalues-global"]
   };
 
@@ -60,7 +59,7 @@ const AboutLayout = ({ state }) => {
       <OurImpact content={contentFlow.ourimpact} />
       <OurMission content={contentFlow.ourmission} />
       <OurValues content={contentFlow.ourvalues} />
-      <OurTeam content={contentFlow.volunteers} />
+      <OurTeam content={contentFlow.boardMembers} />
       <OurJourney content={contentFlow.ourjourney} />
       <CTA />
     </>

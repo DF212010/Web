@@ -97,6 +97,6 @@ html {
   text-align: center;
   position: relative;
   overflow: hidden;
-  min-height: 90vh;
+  min-height: 70vh;
   height: max-content;
 }

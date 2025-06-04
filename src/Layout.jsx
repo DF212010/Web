@@ -16,6 +16,9 @@ import NotFound from "./components/errors/NotFound";
 import ProgramsHero from "./pages/programs/sections/Hero";
 import ProgramsDetails from "./pages/programs/sections/ProgramsDetails";
 import BacktoTop from "./components/ui/BacktoTop";
+import Test from "../tests/Test";
+import OurTeamLayout from "./pages/team/OurTeamLayout";
+import Hero from "./pages/team/sections/Hero";
 const Layout = ({ page }) => {
   const { state } = useContent();
   const pages = {
@@ -26,14 +29,17 @@ const Layout = ({ page }) => {
     contact: <ContactLayout />,
     programs: <ProgramsLayout state={state} />,
     programsDetails: <ProgramsDetails state={state} />,
-    notFound: <NotFound />
+    ourteam: <OurTeamLayout state={state} />,
+    notFound: <NotFound />,
+    test: <Test state={state} />
   };
   const heroes = {
     home: <HomeHero />,
     about: <AboutHero />,
     youthcorner: <YouthHero />,
     contact: <ContactHero />,
-    programs: <ProgramsHero />
+    programs: <ProgramsHero />,
+    ourteam: <Hero />
   };
   return (
     <>

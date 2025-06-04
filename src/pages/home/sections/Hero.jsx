@@ -33,7 +33,7 @@ const HeroCarousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active c-item">
-            <div className="carousel-caption d-none d-md-block text-white mt-3 c-cap">
+            <div className="carousel-caption d-none d-md-block mt-3 c-cap">
               <div className="s-txt-box">
                 <h5 className="fw-bold display-6 text-shadow">
                   Stunning Slide Title

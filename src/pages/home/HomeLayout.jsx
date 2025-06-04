@@ -15,7 +15,7 @@ const HomeLayout = ({ state }) => {
     ourwork: content.staticContent["textmedia-global"]["ourImpact-home"],
     ourvalues: content?.staticContent?.ourvalues,
     ourstory: content.staticContent["textmedia-global"]["aboutUs-home"],
-    volunteers: content?.dynamicContent?.["volunteers-global"],
+    founders: content?.dynamicContent?.["founders-global"],
     ourprograms: content?.dynamicContent?.["ourprograms-home"],
     events: content?.dynamicContent?.events
   };
@@ -26,7 +26,7 @@ const HomeLayout = ({ state }) => {
         <StudentHelp ourvalues={contentFlow.ourvalues} />
         <OurStory props={contentFlow.ourstory} />
         <OurPrograms programs={contentFlow.ourprograms} />
-        <OurVolunteers volunteers={contentFlow.volunteers} />
+        <OurVolunteers founders={contentFlow.founders} />
         <Donation />
         <UpcomingEvents events={contentFlow.events} />
       </main>

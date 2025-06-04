@@ -37,10 +37,11 @@ function App() {
         <Route path="/about" element={<Layout page={"about"} />} />
         <Route path="/donate" element={<Layout page={"donate"} />} />
         <Route path="/contact" element={<Layout page={"contact"} />} />
-        <Route path="/youthCorner" element={<Layout page={"youthcorner"} />} />
+        <Route path="/youthcorner" element={<Layout page={"youthcorner"} />} />
         <Route path="/programs" element={<Layout page={"programs"} />} />
+        <Route path="/ourteam" element={<Layout page={"ourteam"} />} />
         <Route path="/programs/:programId" element={<Layout page={"programsDetails"} />} />
-        <Route path="/test" element={<Test />} />
+        <Route path="/test" element={<Layout page={"test"}/>} />
         <Route path="*" element={<Layout page={"notFound"} />} />
       </Routes>
     </>

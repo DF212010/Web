@@ -1,8 +1,9 @@
 import React from "react";
-import { useState} from "react";
+import { useState } from "react";
 import TeamIdentity from "../../../components/ui/TeamIdentity";
 import ScrollCard from "../../../components/ui/scrollCard";
-const OurVolunteers = ({ volunteers }) => {
+import { Link } from "react-router-dom"
+const OurVolunteers = ({ founders }) => {
   const [cardWidth, setCardWidth] = useState(280);
   return (
     <section className="our-volunteers-section bg-light py-5">
@@ -10,7 +11,7 @@ const OurVolunteers = ({ volunteers }) => {
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center mb-5">
             <h2 className="display-5 fw-bold text-primary mb-3">
-              Our Volunteers
+              Our Founders
             </h2>
             <p className="lead text-muted">
               Meet our dedicated team of volunteers who work tirelessly to make
@@ -19,21 +20,25 @@ const OurVolunteers = ({ volunteers }) => {
             </p>
           </div>
         </div>
-
-        /volunteers scroll box
-        <ScrollCard>
-          {volunteers.map((elem) => (
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "nowrap"
+        }}>
+          {founders.map((elem) => (
             <TeamIdentity
               details={elem}
               key={elem.name}
               style={{ minWidth: `${cardWidth}px` }}
             />
           ))}
-        </ScrollCard>
+        </div>
+
         <div className="text-center mt-5">
-          <button className="btn btn-primary btn-lg px-4">
-            Become a Volunteer
-          </button>
+          <Link to="/ourteam" className="btn btn-primary btn-lg px-4">
+            Meet Our Team
+          </Link>
         </div>
       </div>
     </section>

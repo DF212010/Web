@@ -62,21 +62,6 @@ const Hero = () => {
 
       {/* CSS Styles */}
       <style jsx="true">{`
-        .programs-hero {
-          background: linear-gradient(rgba(168, 58, 73, 0.9), rgba(128, 0, 0, 0.9)),
-                      url('https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
-          background-size: cover;
-          background-position: center;
-          padding: 8rem 0;
-          min-height: 80vh;
-          display: flex;
-          align-items: center;
-        }
-        
-        .hero-overlay {
-          background: linear-gradient(to right, rgba(168, 58, 73, 0.8), rgba(128, 0, 0, 0.8));
-          z-index: 0;
-        }
         
         .header-separator {
           width: 100px;

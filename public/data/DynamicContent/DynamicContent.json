@@ -224,55 +224,331 @@
   ],
   "volunteers-global": [
     {
-      "name": "Sarah Johnson",
-      "role": "Community Coordinator",
-      "bio": "Passionate about education and youth development programs.",
+      "name": "Lucky Singh",
+      "role": "Content & Digital Marketing",
+      "bio": "The creative mind behind our content and digital marketing strategies, bringing ideas to life online.",
       "social": [
-        "twitter",
         "linkedin",
-        "instagram"
+        "twitter"
       ],
-      "image": "https://randomuser.me/api/portraits/women/43.jpg"
+      "image": "https://randomuser.me/api/portraits/men/53.jpg"
     },
     {
-      "name": "Michael Chen",
-      "role": "Event Organizer",
-      "bio": "Specializes in fundraising and community engagement events.",
+      "name": "Riya Soni",
+      "role": "Creative Design Lead",
+      "bio": "The design maestro who leads the creative team, turning visions into stunning artwork.",
+      "social": [
+        "instagram",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    },
+    {
+      "name": "Riya Dubey",
+      "role": "Social Media Specialist",
+      "bio": "Our social media storyteller, crafting engaging content that connects and inspires.",
       "social": [
         "twitter",
         "linkedin"
       ],
-      "image": "https://randomuser.me/api/portraits/men/32.jpg"
+      "image": "https://randomuser.me/api/portraits/women/55.jpg"
     },
     {
-      "name": "Priya Patel",
-      "role": "Outreach Specialist",
-      "bio": "Connects with local businesses for partnerships and sponsorships.",
+      "name": "Priya Shukla",
+      "role": "Computer Skills Trainer",
+      "bio": "The skill-builder, empowering students through hands-on computer workshops.",
       "social": [
-        "facebook",
+        "linkedin",
         "instagram"
       ],
-      "image": "https://randomuser.me/api/portraits/women/65.jpg"
+      "image": "https://randomuser.me/api/portraits/women/56.jpg"
     },
     {
-      "name": "David Wilson",
-      "role": "Volunteer Trainer",
-      "bio": "Develops training programs for new volunteers and team leaders.",
+      "name": "Rohit Soni",
+      "role": "Technical Support Lead",
+      "bio": "The tech guardian, ensuring all equipment runs smoothly for seamless learning experiences.",
+      "social": [
+        "facebook",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/57.jpg"
+    },
+    {
+      "name": "Harsh Mishra",
+      "role": "Website Manager",
+      "bio": "The website wizard, keeping our digital home updated and user-friendly.",
+      "social": [
+        "twitter",
+        "instagram",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/58.jpg"
+    },
+    {
+      "name": "Ragini Mishra",
+      "role": "E-literacy Leader",
+      "bio": "The champion of E-literacy, leading programs that unlock digital doors for many.",
+      "social": [
+        "linkedin",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/59.jpg"
+    },
+    {
+      "name": "Nooralam Ansari",
+      "role": "Photographer & Videographer",
+      "bio": "The eye behind the lens, capturing moments through photography and videos.",
+      "social": [
+        "instagram",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/60.jpg"
+    },
+    {
+      "name": "Savita Gupta",
+      "role": "E-literacy Volunteer",
+      "bio": "A passionate volunteer bringing energy and support to our E-literacy sessions.",
+      "social": [
+        "linkedin",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/61.jpg"
+    },
+    {
+      "name": "Nandini",
+      "role": "E-literacy Program Assistant",
+      "bio": "A dedicated helping hand at the heart of our E-literacy programs.",
+      "social": [
+        "twitter",
+        "instagram"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/62.jpg"
+    },
+    {
+      "name": "Nidhi Shukla",
+      "role": "Digital Learning Guide",
+      "bio": "A committed guide supporting students in their digital learning journey.",
       "social": [
         "linkedin",
         "twitter"
       ],
-      "image": "https://randomuser.me/api/portraits/men/75.jpg"
+      "image": "https://randomuser.me/api/portraits/women/63.jpg"
     },
     {
-      "name": "Emma Rodriguez",
-      "role": "Social Media Manager",
-      "bio": "Shares our stories and impacts through digital platforms.",
+      "name": "Ayushi Tiwari",
+      "role": "Education Volunteer",
+      "bio": "A vibrant volunteer energizing our educational programs with dedication.",
+      "social": [
+        "facebook",
+        "instagram"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/64.jpg"
+    },
+    {
+      "name": "Ranjeet Maddhesiya",
+      "role": "E-literacy Facilitator",
+      "bio": "A reliable force ensuring smooth facilitation during our E-literacy classes.",
+      "social": [
+        "twitter",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/65.jpg"
+    },
+    {
+      "name": "Vikas",
+      "role": "Digital Education Volunteer",
+      "bio": "A devoted volunteer making impactful contributions to digital education.",
+      "social": [
+        "instagram",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/66.jpg"
+    }
+  ],
+  "board-members-global": [
+    {
+      "name": "Mrs. Pratigya Mishra",
+      "role": "President",
+      "bio": "Visionary leader dedicated to education, empowerment, and rural development initiatives.",
+      "social": [
+        "linkedin",
+        "instagram",
+        "twitter"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "name": "Mr. Tarun Oberoi",
+      "role": "Vice President",
+      "bio": "Strategic thinker strengthening programs with passion, experience, and community focus.",
+      "social": [
+        "linkedin",
+        "twitter"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "name": "Mr. Haribansh Mishra",
+      "role": "Secretary",
+      "bio": "Organized, dependable communicator, ensuring seamless execution of foundation objectives.",
+      "social": [
+        "facebook",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "name": "Mr. Anupam Mishra",
+      "role": "Finance Secretary",
+      "bio": "Meticulous financial planner, maintaining transparency and budget integrity throughout programs.",
+      "social": [
+        "linkedin",
+        "twitter"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "name": "Mr. Anurag Mishra",
+      "role": "Member",
+      "bio": "Innovative contributor focused on youth development and digital transformation efforts.",
       "social": [
         "instagram",
         "twitter"
       ],
-      "image": "https://randomuser.me/api/portraits/women/33.jpg"
+      "image": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "name": "Mr. Ashish Mishra",
+      "role": "Member",
+      "bio": "Co-founder, passionate mentor driving technology and education for rural youth.",
+      "social": [
+        "linkedin",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "name": "Mrs. Neeru Batra",
+      "role": "Member",
+      "bio": "Mentor and guide, nurturing soft skills and student career readiness.",
+      "social": [
+        "linkedin",
+        "instagram"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "name": "Mr. Anil Sharma",
+      "role": "Member",
+      "bio": "Community advocate fostering rural digital literacy and infrastructure growth support.",
+      "social": [
+        "twitter",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "name": "Mr. Vinod Bijapur",
+      "role": "Member",
+      "bio": "Long-term donor uplifting educational access through library and scholarship support.",
+      "social": [
+        "linkedin",
+        "twitter"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "name": "Mr. Sumit Chadha",
+      "role": "Member",
+      "bio": "Supportive team member contributing ideas, outreach, and operational efficiency effectively.",
+      "social": [
+        "instagram",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "name": "Mrs. Pooja Trivedi",
+      "role": "Member, General Committee",
+      "bio": "Enthusiastic educator dedicated to student learning and holistic development goals.",
+      "social": [
+        "twitter",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "name": "Mrs. Anupama Bharti",
+      "role": "Member, General Committee",
+      "bio": "Creative contributor advancing women empowerment through community engagement programs.",
+      "social": [
+        "facebook",
+        "instagram"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "name": "Mr. Shailendra Dutt Shukla",
+      "role": "Member, General Committee",
+      "bio": "Disciplined leader promoting youth engagement and structured community service programs.",
+      "social": [
+        "linkedin",
+        "twitter"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "name": "Mr. Arun Singh",
+      "role": "Member, General Committee",
+      "bio": "Committed social worker supporting education and skill-building for rural youth.",
+      "social": [
+        "instagram",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+      "name": "Mr. Aman Garg",
+      "role": "Member, General Committee",
+      "bio": "Young visionary fostering innovation, leadership, and digital inclusion across regions.",
+      "social": [
+        "twitter",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/24.jpg"
+    }
+  ],
+  "founders-global": [
+    {
+      "name": "Mrs. Pratigya Mishra",
+      "role": "Founder & President",
+      "bio": "A visionary leader dedicated to empowering rural youth through education, digital literacy, and equal opportunities.",
+      "social": [
+        "linkedin",
+        "instagram",
+        "twitter"
+      ],
+      "image": "https://randomuser.me/api/portraits/women/31.jpg"
+    },
+    {
+      "name": "Mr. Ashish Mishra",
+      "role": "Co-Founder",
+      "bio": "A tech-savvy mentor focused on bridging the digital gap and guiding students toward modern careers and skills.",
+      "social": [
+        "linkedin",
+        "facebook"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/30.jpg"
+    },
+    {
+      "name": "Mr. Tarun Oberoi",
+      "role": "Co-Founder & Vice President",
+      "bio": "A strategic changemaker committed to expanding educational access and driving social transformation in underserved communities.",
+      "social": [
+        "twitter",
+        "linkedin"
+      ],
+      "image": "https://randomuser.me/api/portraits/men/29.jpg"
     }
   ],
   "programs-ourprograms": [

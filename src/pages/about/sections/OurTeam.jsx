@@ -3,6 +3,7 @@ import TeamIdentity from "../../../components/ui/TeamIdentity";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { iconMap } from "../../../hooks/iconmap";
 import ScrollCard from "../../../components/ui/scrollCard";
+import { Link } from "react-router-dom";
 const OurTeam = ({ content }) => {
   const [cardWidth, setCardWidth] = useState(280); // Default card width
   return (
@@ -26,9 +27,9 @@ const OurTeam = ({ content }) => {
         </ScrollCard>
 
         <div className="text-center mt-5" data-aos="fade-up">
-          <a href="#" className="btn btn-primary-custom">
+          <Link to="/ourteam" className="btn btn-primary-custom">
             <FontAwesomeIcon icon={iconMap["users"]} />Meet Full Team
-          </a>
+          </Link>
         </div>
       </div>
     </section>

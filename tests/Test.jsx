@@ -1,10 +1,8 @@
-import React from 'react'
-import ProgramsPage from './ProgramsPage'
-const Test = () => {
-    return (
-        // <ProgramsPage />
-        <h1>this is a test url for developers code testing</h1>
-    )
+import React, { useEffect, useState } from 'react'
+const Test = ({ state }) => {
+ <h1 className='text-primary'>
+    hello i am the test page
+ </h1>
 }
 
 export default Test

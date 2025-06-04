@@ -16,8 +16,8 @@ const NavBar = () => {
   };
 
   const closeNavbar = () => {
-    setIsOpen(false);
-    document.body.style.overflow = "auto";
+    // setIsOpen(false);
+    // document.body.style.overflow = "auto";
   };
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const NavBar = () => {
       <div className="navbar-container">
         <div className="navbar-content">
           <div className='logo-section'>
-            <Link to="/" className="logo-text" onClick={closeNavbar}>
+            <Link to="/" className="logo-text">
               <img src={logoImage} style={{ height: '60px', width: 'auto' }} />
             </Link>
           </div>
@@ -64,9 +64,8 @@ const NavBar = () => {
               (item) => (
                 <NavLink
                   key={item}
-                  to={item === "home" ? "/" : `/${item.replace(" ", "")}`}
+                  to={item === "home" ? "/" : `/${item.replace(" ", "").toLowerCase()}`}
                   className={navLinkClass}
-                  onClick={closeNavbar}
                 >
                   {item.charAt(0).toUpperCase() + item.slice(1)}
                 </NavLink>
@@ -74,7 +73,7 @@ const NavBar = () => {
             )}
           </div>
           <div className="nav-btn-box">
-            <Link to="/donate" className="nav-donate-btn" id="nav-dnt-btn" onClick={closeNavbar}>
+            <Link to="/donate" className="nav-donate-btn" id="nav-dnt-btn">
               Donate Now
             </Link>
           </div>

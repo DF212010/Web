@@ -251,7 +251,7 @@
 }
 
 .learn-more:hover {
-    background-color: var(--primary-dark);
+    background-color: var(--border);
 }
 
 @media (max-width: 576px) {

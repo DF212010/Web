@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandHoldingHeart, faLightbulb, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { iconMap } from '../../../hooks/iconmap';
 
 const Hero = () => {
   const heroStyle = {
@@ -33,7 +34,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <FontAwesomeIcon icon={faHandHoldingHeart} className="text-white me-2" />
+                <FontAwesomeIcon icon={iconMap['useGear']} className="text-white me-2" />
                 <span className="text-white">Entrepreneurship</span>
               </div>
 
@@ -42,7 +43,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <FontAwesomeIcon icon={faLightbulb} className="text-white me-2" />
+                <FontAwesomeIcon icon={iconMap['lightbulb']} className="text-white me-2" />
                 <span className="text-white">Education</span>
               </div>
 
@@ -51,7 +52,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <FontAwesomeIcon icon={faUsers} className="text-white me-2" />
+                <FontAwesomeIcon icon={iconMap['users']} className="text-white me-2" />
                 <span className="text-white">Empowerment</span>
               </div>
             </div>

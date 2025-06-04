@@ -110,96 +110,116 @@
   ],
   "ourmission-about": [
     {
-      "heading": "Education for All",
-      "description": "We believe education is a fundamental right. Our programs provide learning opportunities and resources to underserved communities, helping children build a brighter future.",
-      "icon": "fa-book-open",
+      "heading": "E-Literacy for Empowerment",
+      "description": "E-literacy is more than education—it's emotions and empowerment. At Durga Foundation, we nurture tomorrow’s leaders through digital skills.",
+      "icon": "laptopFile",
       "btnCont": "Learn More",
       "btnLink": "#"
     },
     {
-      "heading": "Health Care",
-      "description": "Our healthcare initiatives include medical camps, health awareness drives, and emergency assistance programs to ensure everyone has access to basic healthcare",
-      "icon": "fa-heartbeat",
+      "heading": "Digital Workstations",
+      "description": "Empowering minds through access—Durga Foundation’s workstations are where learning meets opportunity.",
+      "icon": "desktop",
       "btnCont": "Learn More",
       "btnLink": "#"
     },
     {
-      "heading": "Green Earth",
-      "description": "Through tree plantation drives, clean water campaigns, and climate education, we work to protect the environment for future generations.",
-      "icon": "fa-leaf",
+      "heading": "Career Counseling",
+      "description": "Career counseling at Durga Foundation lights the path for youth, turning dreams into reality.",
+      "icon": "briefcase",
       "btnCont": "Learn More",
       "btnLink": "#"
     }
   ],
   "ourvalues-global": [
     {
-      "heading": "Integrity",
-      "description": "We uphold the highest ethical standards in all our actions and decisions.",
-      "icon": "fa-handshake"
+      "heading": "Giving Back to Society",
+      "description": "We uplift communities by creating opportunities. Former beneficiaries now mentor others, extending education and support where it’s needed most.",
+      "icon": "shapes"
     },
     {
-      "heading": "Compassion",
-      "description": "Every initiative stems from genuine care for people and the planet.",
-      "icon": "fa-heart"
+      "heading": "Equal Opportunity for All",
+      "description": "We bridge gaps of geography, gender, and income—ensuring every child has equal access to education, technology, and opportunities.",
+      "icon": "universalAccess"
     },
     {
-      "heading": "Inclusivity",
-      "description": "We embrace diversity and ensure our programs reach all communities.",
-      "icon": "fa-users"
+      "heading": "The Power of Working Together",
+      "description": "Collaboration fuels our mission. Volunteers, educators, and donors unite to amplify impact and sustainably transform entire communities.",
+      "icon": "peopleCarry"
     },
     {
-      "heading": "Sustainability",
-      "description": "Creating long-term solutions that empower communities to thrive.",
-      "icon": "fa-seedling"
+      "heading": "Student First",
+      "description": "Every decision centers on student needs. We foster academic, emotional, and personal growth to develop future-ready, confident leaders.",
+      "icon": "userGraduate"
     }
   ],
   "ourimpact-about": [
     {
       "work": "Student Educated",
       "targetNumber": "5000",
-      "icon": "fa-user-graduate"
+      "icon": "userGraduate"
     },
     {
       "work": "Healthcare Beneficiaries",
       "targetNumber": "8750",
-      "icon": "fa-heartbeat"
+      "icon": "heartbeat"
     },
     {
       "work": "Trees Planted",
       "targetNumber": "15000",
-      "icon": "fa-tree"
+      "icon": "tree"
     },
     {
       "work": "Communities Served",
       "targetNumber": "120",
-      "icon": "fa-home"
+      "icon": "home"
     }
   ],
   "ourjourney-about": [
     {
-      "year": "2012",
-      "title": "The Beginning",
-      "description": "Founded as a small initiative to provide educational support to 50 children in a local village."
+      "year": "2010",
+      "title": "The Inception: A Vision Takes Root",
+      "description": "The Durga Foundation was born out of a mission to uplift underprivileged students by providing access to quality education, career guidance, and resources. What started as a grassroots initiative soon evolved into a structured platform for youth empowerment in rural India."
     },
     {
-      "year": "2015",
-      "title": "Expanding Horizons",
-      "description": "Expanded to 10 villages and added healthcare initiatives to our portfolio."
+      "year": "2012",
+      "title": "Scholarships & Resources for Aspiring Change-Makers",
+      "description": "We began offering scholarships to meritorious students, ensuring that financial barriers would never hold back potential. The same year, we donated critical academic resources—books and study material—to support IIT-JEE and NEET aspirants in government and low-income schools."
+    },
+    {
+      "year": "2014",
+      "title": "Digital Literacy & Career Guidance Begin",
+      "description": "We introduced the 'Moose to Mouse' digital literacy program, equipping students with basic computer knowledge in villages unfamiliar with technology. Simultaneously, we launched career counseling drives to help young learners explore academic and vocational paths confidently. Related program: E-Literacy for All."
+    },
+    {
+      "year": "2016",
+      "title": "Building Knowledge & Infrastructure",
+      "description": "Village libraries expanded, creating safe spaces for children to read, research, and imagine a better future. We also laid the foundation stone for our first community center, envisioned to host skill-based training, digital classes, and youth development workshops."
     },
     {
       "year": "2018",
-      "title": "Registered NGO",
-      "description": "Officially registered as a non-profit organization with a dedicated team of 25 members."
+      "title": "Resilience Through Innovation and Support",
+      "description": "During the pandemic, we introduced virtual classes to ensure uninterrupted learning. We also offered soft loans to financially stressed families, helping them stay afloat with dignity and hope."
     },
     {
       "year": "2020",
-      "title": "Going National",
-      "description": "Expanded our operations to 5 states with over 100 volunteers."
+      "title": "Engagement & Empowerment",
+      "description": "Our founder engaged with Dr. Harsh Vardhan to explore future-focused STEM education in rural India. We also hosted a residential boot camp focusing on leadership skills, academic excellence, and emotional intelligence for teens."
+    },
+    {
+      "year": "2022",
+      "title": "E-Literacy Revolution Begins",
+      "description": "Launched across five villages in Kushinagar, our E-Literacy Program introduced hundreds of students and villagers to digital knowledge, internet safety, and tech usage, aiming to bridge the rural digital divide."
     },
     {
       "year": "2024",
-      "title": "Today",
-      "description": "Operating in 12 states with over 50 programs and impacting more than 100,000 lives annually."
+      "title": "Scaling District-Wide Impact",
+      "description": "The digital literacy campaign expanded from five villages to district-wide in Kushinagar, benefiting thousands. The initiative ensured inclusive access to computers, internet training, and awareness for school children, women, and senior citizens."
+    },
+    {
+      "year": "2025",
+      "title": "Future-Ready Vision",
+      "description": "Durga Foundation continues its growth with training programs, career readiness, and tech-driven education. Our community center nears completion, soon to house a digital learning lab, women’s skill center, and rural innovation hub."
     }
   ],
   "volunteers-global": [
@@ -308,7 +328,7 @@
       "id": 7,
       "title": "DF Workstation",
       "description": "Employment preparation with resume building, interview training, and job referrals to address rural employment gaps.",
-      "icon": "breifcase",
+      "icon": "briefcase",
       "image": "/assets/images/programs-workstation.webp",
       "category": "Employment & Entrepreneurship"
     },
@@ -663,8 +683,8 @@
         }
       ],
       "cta": {
-        "text": "Support English Learning for Youth",
-        "icon": "handsHelping",
+        "text": "Register Now",
+        "icon": "filePen",
         "buttonLink": "/donate"
       },
       "meta": {
@@ -698,7 +718,7 @@
       "accordion": [
         {
           "id": "overview",
-          "icon": "breifcase",
+          "icon": "briefcase",
           "title": "Program Overview and Details",
           "content": "DF Workstation connects youth from developing cities with skill-based job placements in the service industry. In partnership with companies like Constems AI and Ibrandriser Private Limited, we provide career readiness training and employment opportunities to empower young talent."
         },
@@ -769,7 +789,7 @@
         },
         {
           "id": "programs",
-          "icon": "breifcase",
+          "icon": "briefcase",
           "title": "Programs Under the Entrepreneurship Umbrella",
           "content": "🔧 <strong>Industrial Training Program</strong><br><em>Duration: 7 Days | Focus: Business Exposure & Operations</em><br>Immersive training in real business environments<br>Understanding of daily operations, logistics, and customer engagement<br><br>🔥 <strong>Leadership Boot Camp</strong><br><em>Duration: 5 Days | Focus: Youth Development & Leadership</em><br>Activities around teamwork, innovation, and vision-building<br>Builds personal resilience, strategic thinking, and leadership qualities"
         },

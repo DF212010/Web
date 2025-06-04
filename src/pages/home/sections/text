@@ -1,0 +1,7 @@
+{volunteers.map((elem) => (
+              <TeamIdentity
+                details={elem}
+                key={elem.name}
+                style={{ minWidth: `${cardWidth}px` }}
+              />
+            ))}

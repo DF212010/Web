@@ -224,9 +224,17 @@
   ],
   "volunteers-global": [
     {
+      "id": 1,
       "name": "Lucky Singh",
       "role": "Content & Digital Marketing",
-      "bio": "The creative mind behind our content and digital marketing strategies, bringing ideas to life online.",
+      "bio": {
+        "short": "The creative mind behind our content and digital marketing strategies, bringing ideas to life online.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "MBA in Marketing",
+        "Certified in Digital Strategy"
+      ],
       "social": [
         "linkedin",
         "twitter"
@@ -234,9 +242,17 @@
       "image": "https://randomuser.me/api/portraits/men/53.jpg"
     },
     {
+      "id": 2,
       "name": "Riya Soni",
       "role": "Creative Design Lead",
-      "bio": "The design maestro who leads the creative team, turning visions into stunning artwork.",
+      "bio": {
+        "short": "The design maestro who leads the creative team, turning visions into stunning artwork.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "Bachelor in Design",
+        "Diploma in Visual Communication"
+      ],
       "social": [
         "instagram",
         "facebook"
@@ -244,9 +260,17 @@
       "image": "https://randomuser.me/api/portraits/women/54.jpg"
     },
     {
+      "id": 3,
       "name": "Riya Dubey",
       "role": "Social Media Specialist",
-      "bio": "Our social media storyteller, crafting engaging content that connects and inspires.",
+      "bio": {
+        "short": "Our social media storyteller, crafting engaging content that connects and inspires.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "BA in Media Studies",
+        "Social Media Certification"
+      ],
       "social": [
         "twitter",
         "linkedin"
@@ -254,9 +278,17 @@
       "image": "https://randomuser.me/api/portraits/women/55.jpg"
     },
     {
+      "id": 4,
       "name": "Priya Shukla",
       "role": "Computer Skills Trainer",
-      "bio": "The skill-builder, empowering students through hands-on computer workshops.",
+      "bio": {
+        "short": "The skill-builder, empowering students through hands-on computer workshops.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "BCA",
+        "MCA"
+      ],
       "social": [
         "linkedin",
         "instagram"
@@ -264,9 +296,17 @@
       "image": "https://randomuser.me/api/portraits/women/56.jpg"
     },
     {
+      "id": 5,
       "name": "Rohit Soni",
       "role": "Technical Support Lead",
-      "bio": "The tech guardian, ensuring all equipment runs smoothly for seamless learning experiences.",
+      "bio": {
+        "short": "The tech guardian, ensuring all equipment runs smoothly for seamless learning experiences.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "Diploma in Hardware & Networking",
+        "BSc in IT"
+      ],
       "social": [
         "facebook",
         "linkedin"
@@ -274,9 +314,17 @@
       "image": "https://randomuser.me/api/portraits/men/57.jpg"
     },
     {
+      "id": 6,
       "name": "Harsh Mishra",
       "role": "Website Manager",
-      "bio": "The website wizard, keeping our digital home updated and user-friendly.",
+      "bio": {
+        "short": "The website wizard, keeping our digital home updated and user-friendly.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "B.Tech in Computer Science",
+        "Web Development Certification"
+      ],
       "social": [
         "twitter",
         "instagram",
@@ -285,9 +333,17 @@
       "image": "https://randomuser.me/api/portraits/men/58.jpg"
     },
     {
+      "id": 7,
       "name": "Ragini Mishra",
       "role": "E-literacy Leader",
-      "bio": "The champion of E-literacy, leading programs that unlock digital doors for many.",
+      "bio": {
+        "short": "The champion of E-literacy, leading programs that unlock digital doors for many.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "BA in Education",
+        "Certificate in Digital Literacy"
+      ],
       "social": [
         "linkedin",
         "facebook"
@@ -295,9 +351,17 @@
       "image": "https://randomuser.me/api/portraits/women/59.jpg"
     },
     {
+      "id": 8,
       "name": "Nooralam Ansari",
       "role": "Photographer & Videographer",
-      "bio": "The eye behind the lens, capturing moments through photography and videos.",
+      "bio": {
+        "short": "The eye behind the lens, capturing moments through photography and videos.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "Diploma in Photography",
+        "Videography Workshop"
+      ],
       "social": [
         "instagram",
         "linkedin"
@@ -305,9 +369,17 @@
       "image": "https://randomuser.me/api/portraits/men/60.jpg"
     },
     {
+      "id": 9,
       "name": "Savita Gupta",
       "role": "E-literacy Volunteer",
-      "bio": "A passionate volunteer bringing energy and support to our E-literacy sessions.",
+      "bio": {
+        "short": "A passionate volunteer bringing energy and support to our E-literacy sessions.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "Bachelor in Arts",
+        "Certificate in Digital Education"
+      ],
       "social": [
         "linkedin",
         "facebook"
@@ -315,9 +387,17 @@
       "image": "https://randomuser.me/api/portraits/women/61.jpg"
     },
     {
+      "id": 10,
       "name": "Nandini",
       "role": "E-literacy Program Assistant",
-      "bio": "A dedicated helping hand at the heart of our E-literacy programs.",
+      "bio": {
+        "short": "A dedicated helping hand at the heart of our E-literacy programs.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "BA in Social Work",
+        "Digital Literacy Basics"
+      ],
       "social": [
         "twitter",
         "instagram"
@@ -325,9 +405,17 @@
       "image": "https://randomuser.me/api/portraits/women/62.jpg"
     },
     {
+      "id": 11,
       "name": "Nidhi Shukla",
       "role": "Digital Learning Guide",
-      "bio": "A committed guide supporting students in their digital learning journey.",
+      "bio": {
+        "short": "A committed guide supporting students in their digital learning journey.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "MA in Education",
+        "Digital Training Certification"
+      ],
       "social": [
         "linkedin",
         "twitter"
@@ -335,9 +423,17 @@
       "image": "https://randomuser.me/api/portraits/women/63.jpg"
     },
     {
+      "id": 12,
       "name": "Ayushi Tiwari",
       "role": "Education Volunteer",
-      "bio": "A vibrant volunteer energizing our educational programs with dedication.",
+      "bio": {
+        "short": "A vibrant volunteer energizing our educational programs with dedication.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "B.Ed",
+        "Certificate in Child Education"
+      ],
       "social": [
         "facebook",
         "instagram"
@@ -345,9 +441,17 @@
       "image": "https://randomuser.me/api/portraits/women/64.jpg"
     },
     {
+      "id": 13,
       "name": "Ranjeet Maddhesiya",
       "role": "E-literacy Facilitator",
-      "bio": "A reliable force ensuring smooth facilitation during our E-literacy classes.",
+      "bio": {
+        "short": "A reliable force ensuring smooth facilitation during our E-literacy classes.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "Diploma in Computer Applications",
+        "Field Training Program"
+      ],
       "social": [
         "twitter",
         "linkedin"
@@ -355,9 +459,17 @@
       "image": "https://randomuser.me/api/portraits/men/65.jpg"
     },
     {
+      "id": 14,
       "name": "Vikas",
       "role": "Digital Education Volunteer",
-      "bio": "A devoted volunteer making impactful contributions to digital education.",
+      "bio": {
+        "short": "A devoted volunteer making impactful contributions to digital education.",
+        "breif": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dummy bio for extended content goes here."
+      },
+      "education": [
+        "BSc in Computer Science",
+        "Digital Teaching Certification"
+      ],
       "social": [
         "instagram",
         "linkedin"
@@ -367,9 +479,17 @@
   ],
   "board-members-global": [
     {
+      "id": 1,
       "name": "Mrs. Pratigya Mishra",
       "role": "President",
-      "bio": "Visionary leader dedicated to education, empowerment, and rural development initiatives.",
+      "bio": {
+        "short": "Visionary leader dedicated to education, empowerment, and rural development initiatives.",
+        "breif": "Pratigya Mishra is a seasoned Staff Software Engineer DevOps at Visa, with over 15 years of experience in system analysis, production support, and DevOps. Beyond her tech career, Pratigya leads as President of Durga Foundation - Education for All, empowering underprivileged communities in India through digital literacy. Under her leadership, the foundation is giving training to 25000+ individuals, bridging the digital divide in rural areas."
+      },
+      "education": [
+        "Bachelor of Technology (Computer Science)",
+        "Master of Business Administration"
+      ],
       "social": [
         "linkedin",
         "instagram",
@@ -378,9 +498,17 @@
       "image": "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
-      "name": "Mr. Tarun Oberoi",
+      "id": 2,
+      "name": "Mr. Tarun Oberai",
       "role": "Vice President",
-      "bio": "Strategic thinker strengthening programs with passion, experience, and community focus.",
+      "bio": {
+        "short": "Strategic thinker strengthening programs with passion, experience, and community focus.",
+        "breif": "An Oracle EPM expert with over 16 years of experience in infrastructure, architecture, and cloud implementations. He leads global teams and drives innovation in enterprise performance management solutions. As Vice President of Durga Foundation, he is a passionate advocate for skill development and women empowerment in Eastern Uttar Pradesh. He has been instrumental in expanding digital literacy initiatives and creating opportunities for underprivileged youth and women to achieve financial independence through education and technology."
+      },
+      "education": [
+        "Master of Science (Cloud Computing)",
+        "Bachelor of Engineering"
+      ],
       "social": [
         "linkedin",
         "twitter"
@@ -388,9 +516,16 @@
       "image": "https://randomuser.me/api/portraits/men/11.jpg"
     },
     {
+      "id": 3,
       "name": "Mr. Haribansh Mishra",
       "role": "Secretary",
-      "bio": "Organized, dependable communicator, ensuring seamless execution of foundation objectives.",
+      "bio": {
+        "short": "Organized, dependable communicator, ensuring seamless execution of foundation objectives.",
+        "breif": "Haribansh Mishra is a dedicated chemist with an M.Sc. in Chemistry (1970). As Secretary of Durga Foundation, he plays a key role in shaping initiatives focused on education and youth development. Known for his strong vision and commitment, he is a passionate advocate for sports and education among youth, fostering discipline, teamwork, and personal growth. His lifelong dedication to community service has inspired many young minds in Eastern Uttar Pradesh to pursue both academic excellence and athletic development."
+      },
+      "education": [
+        "M.Sc. in Chemistry (1970)"
+      ],
       "social": [
         "facebook",
         "linkedin"
@@ -398,9 +533,17 @@
       "image": "https://randomuser.me/api/portraits/men/12.jpg"
     },
     {
+      "id": 4,
       "name": "Mr. Anupam Mishra",
-      "role": "Finance Secretary",
-      "bio": "Meticulous financial planner, maintaining transparency and budget integrity throughout programs.",
+      "role": "Financial Secretary",
+      "bio": {
+        "short": "Meticulous financial planner, maintaining transparency and budget integrity throughout programs.",
+        "breif": "Anupam Mishra is a seasoned distillery professional with over 25 years of experience in distillation operations, production management, and leadership. Currently serving as the General Manager at Gulshan Polyols Ltd in Assam, he has held key positions at Linta Sugar & Chemicals, Sir Shadilal Enterprises, and Simbhaoli Sugars. His expertise lies in process optimization, team leadership, and operational excellence. He took on the role of Financial Secretary at Durga Foundation, where he is responsible for financial stewardship, ensuring transparency, and mobilizing resources to scale the Foundation's impact. He actively advocates for skill development and women empowerment initiatives, focusing on transforming the lives of underprivileged youth in Eastern Uttar Pradesh."
+      },
+      "education": [
+        "alumnus of NSI Kanpur",
+        "MBA from Punjab Technical University"
+      ],
       "social": [
         "linkedin",
         "twitter"
@@ -408,9 +551,17 @@
       "image": "https://randomuser.me/api/portraits/men/13.jpg"
     },
     {
+      "id": 5,
       "name": "Mr. Anurag Mishra",
-      "role": "Member",
-      "bio": "Innovative contributor focused on youth development and digital transformation efforts.",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Innovative contributor focused on youth development and digital transformation efforts.",
+        "breif": "Anurag Mishra is a seasoned expert in localization, translation, and language quality, with over 15 years of experience in the industry. Currently the Head of Localization at HD Shapers, he has successfully led large-scale projects across multiple domains, including medical, legal, IT, and marketing. Anurag has deep expertise in Translation Management Systems and Linguistic Quality Assurance. As a Board Advisor at Durga Foundation, Anurag brings his passion for language and communication to help bridge educational gaps. His commitment to empowering communities through digital inclusion and education supports the foundation's mission to create sustainable change."
+      },
+      "education": [
+        "Master of Arts (Linguistics)",
+        "Bachelor of Arts (Communication)"
+      ],
       "social": [
         "instagram",
         "twitter"
@@ -418,9 +569,17 @@
       "image": "https://randomuser.me/api/portraits/men/14.jpg"
     },
     {
+      "id": 6,
       "name": "Mr. Ashish Mishra",
-      "role": "Member",
-      "bio": "Co-founder, passionate mentor driving technology and education for rural youth.",
+      "role": "Founder Director",
+      "bio": {
+        "short": "Co-founder, passionate mentor driving technology and education for rural youth.",
+        "breif": "Ashish Mishra is a Senior Manager of Software Engineering at Dell Technologies, with over 17 years of experience in banking, finance, and regulatory solutions. He has held leadership roles at Barclays, United Overseas Bank, and Nityo Infotech. Ashish is an AWS Certified Solution Architect and an expert in DevOps, Agile, and large-scale program delivery. As Founder of Durga Foundation - Education for All, Ashish has been instrumental in transforming the lives of underprivileged students in rural India, guiding them towards professional success since 2010."
+      },
+      "education": [
+        "Bachelor of Engineering (Software Engineering)",
+        "Master of Technology"
+      ],
       "social": [
         "linkedin",
         "facebook"
@@ -428,9 +587,17 @@
       "image": "https://randomuser.me/api/portraits/men/15.jpg"
     },
     {
+      "id": 7,
       "name": "Mrs. Neeru Batra",
-      "role": "Member",
-      "bio": "Mentor and guide, nurturing soft skills and student career readiness.",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Mentor and guide, nurturing soft skills and student career readiness.",
+        "breif": "Neeru Batra is a dedicated career counselor and mentor with a passion for empowering young minds. With over two decades of experience in guiding students and professionals towards successful careers, Neeru Ma'am has made a lasting impact through her personalized mentoring and strategic advice. At Durga Foundation, Neeru plays a pivotal role as a Board Advisor, helping to shape the career paths of underprivileged youth. Her deep understanding of industry trends, resume building, and interview preparation equips students with the skills and confidence to pursue meaningful opportunities. Her unwavering commitment to education and empowerment continues to inspire both the team and the students."
+      },
+      "education": [
+        "Master of Arts (Psychology)",
+        "Certified Life Coach"
+      ],
       "social": [
         "linkedin",
         "instagram"
@@ -438,9 +605,17 @@
       "image": "https://randomuser.me/api/portraits/women/16.jpg"
     },
     {
+      "id": 8,
       "name": "Mr. Anil Sharma",
-      "role": "Member",
-      "bio": "Community advocate fostering rural digital literacy and infrastructure growth support.",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Community advocate fostering rural digital literacy and infrastructure growth support.",
+        "breif": "Anil Sharma is a seasoned leader in community development and digital inclusion, with over 20 years of experience in building infrastructure and empowering rural communities. As a Board Advisor at Durga Foundation, he provides strategic guidance to expand digital literacy programs and bridge the technology gap in underserved areas. Anil's commitment to social impact has helped thousands of underprivileged youth access education and opportunities for a better future."
+      },
+      "education": [
+        "Bachelor of Science (Software Engineering)",
+        "Master of Science (Computer Science)"
+      ],
       "social": [
         "twitter",
         "facebook"
@@ -448,9 +623,17 @@
       "image": "https://randomuser.me/api/portraits/men/17.jpg"
     },
     {
-      "name": "Mr. Vinod Bijapur",
-      "role": "Member",
-      "bio": "Long-term donor uplifting educational access through library and scholarship support.",
+      "id": 9,
+      "name": "Mr. Vinod Vijapur",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Long-term donor uplifting educational access through library and scholarship support.",
+        "breif": "Vinod Vijapur is the Co-Founder and Chief Technology Officer of 73 Strings, a global leader in AI-powered valuation and portfolio intelligence solutions. With over 18 years of leadership experience in banking and technology, Vinod has worked with Bank of America Merrill Lynch, RBS, and HDFC Bank, driving large-scale digital transformations across Asia, Europe, and the USA. He specializes in ethical AI, disruptive innovation, and building global technology teams. Vinod holds two patents in Blockchain and Regulatory Assessment and is passionate about shaping the future of financial services through cutting-edge technology. At Durga Foundation, Vinod supports initiatives aimed at empowering youth through digital literacy and technology education."
+      },
+      "education": [
+        "Master of Technology (Artificial Intelligence)",
+        "Bachelor of Engineering (Computer Science)"
+      ],
       "social": [
         "linkedin",
         "twitter"
@@ -458,9 +641,17 @@
       "image": "https://randomuser.me/api/portraits/men/18.jpg"
     },
     {
-      "name": "Mr. Sumit Chadha",
-      "role": "Member",
-      "bio": "Supportive team member contributing ideas, outreach, and operational efficiency effectively.",
+      "id": 10,
+      "name": "Mr. Sumeet Chadha",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Supportive team member contributing ideas, outreach, and operational efficiency effectively.",
+        "breif": "Sumeet Chadha is a seasoned global leader in talent acquisition and workforce management, recognized among SIA's Top 100 in America. With over 25 years of experience in managing large-scale recruitment operations and setting up successful global ventures, Sumeet has made a significant impact in the HR and staffing industry. He currently serves as Board Member and EVP Consulting at Tranzeal Incorporated and Co-Founder of an AI-based staffing startup. Throughout his illustrious career, Sumeet has held leadership positions at Tech Mahindra, where he managed global workforce operations, and at various multinational companies across APAC, North Asia, the Middle East, and Africa. His expertise lies in building new operations, managing large P&Ls, and scaling businesses across regions. At Durga Foundation, Sumeet plays a key advisory role, bringing strategic guidance and a vast professional network to support the foundation's mission. His commitment to empowering underprivileged youth and creating sustainable opportunities is helping the foundation expand its reach and impact."
+      },
+      "education": [
+        "Master of Business Administration (HR)",
+        "Bachelor of Business Administration"
+      ],
       "social": [
         "instagram",
         "facebook"
@@ -468,9 +659,17 @@
       "image": "https://randomuser.me/api/portraits/men/19.jpg"
     },
     {
+      "id": 11,
       "name": "Mrs. Pooja Trivedi",
-      "role": "Member, General Committee",
-      "bio": "Enthusiastic educator dedicated to student learning and holistic development goals.",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Enthusiastic educator dedicated to student learning and holistic development goals.",
+        "breif": "Pooja Trivedi is a seasoned public policy and social development professional with 10+ years of experience in nutrition, agriculture, gender, and livelihoods. She has worked with governments and community institutions to design and scale impactful programs. She currently serves as Senior Manager at Catalyst Management Services, Bengaluru, and advises Durga Foundation on program strategy and growth."
+      },
+      "education": [
+        "MBA Agribusiness Gold Medalist",
+        "Takshashila Public Policy graduate"
+      ],
       "social": [
         "twitter",
         "linkedin"
@@ -478,9 +677,17 @@
       "image": "https://randomuser.me/api/portraits/women/20.jpg"
     },
     {
-      "name": "Mrs. Anupama Bharti",
-      "role": "Member, General Committee",
-      "bio": "Creative contributor advancing women empowerment through community engagement programs.",
+      "id": 12,
+      "name": "Mr. Anupam Bharti",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Creative contributor advancing women empowerment through community engagement programs.",
+        "breif": "Anupam Bharti is a dedicated social worker committed to championing women's safety, security, and empowerment. Through her initiatives, she works tirelessly to create safe spaces and opportunities for women and girls, fostering awareness and advocating for their rights. As a passionate community leader, Anupam collaborates with various organizations to promote gender equality and uplift underprivileged communities. Her unwavering dedication continues to inspire positive change and empower women to lead with confidence and dignity."
+      },
+      "education": [
+        "Master of Social Work",
+        "Bachelor of Arts (Sociology)"
+      ],
       "social": [
         "facebook",
         "instagram"
@@ -488,9 +695,17 @@
       "image": "https://randomuser.me/api/portraits/women/21.jpg"
     },
     {
+      "id": 13,
       "name": "Mr. Shailendra Dutt Shukla",
-      "role": "Member, General Committee",
-      "bio": "Disciplined leader promoting youth engagement and structured community service programs.",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Disciplined leader promoting youth engagement and structured community service programs.",
+        "breif": "Shailendra Dutt Shukla serves as a respected Board Member of the Durga Foundation. As the Principal of Hanuman Inter College, he is a dedicated advocate for promoting science and technology among students. With a strong vision for educational excellence, he actively works to inspire young minds, encouraging them to embrace innovation and digital literacy. His leadership and commitment play a vital role in shaping the future of education in the region."
+      },
+      "education": [
+        "Master of Education",
+        "Bachelor of Science"
+      ],
       "social": [
         "linkedin",
         "twitter"
@@ -498,9 +713,17 @@
       "image": "https://randomuser.me/api/portraits/men/22.jpg"
     },
     {
+      "id": 14,
       "name": "Mr. Arun Singh",
-      "role": "Member, General Committee",
-      "bio": "Committed social worker supporting education and skill-building for rural youth.",
+      "role": "Independent Director",
+      "bio": {
+        "short": "Committed social worker supporting education and skill-building for rural youth.",
+        "breif": "Arun Singh is a technology leader with over 23 years of experience in Data, AI, and Analytics. As Practice Director at Cognizant (ASEAN), he specializes in building data-driven strategies and leading large-scale digital transformation initiatives across banking, insurance, public sector, and energy domains. With a proven track record in advisory, solutions, and delivery, Arun supports Durga Foundation in leveraging technology to enhance program impact and drive data-led decision-making."
+      },
+      "education": [
+        "Master of Science (Data Science)",
+        "Bachelor of Technology (Computer Science)"
+      ],
       "social": [
         "instagram",
         "linkedin"
@@ -508,9 +731,17 @@
       "image": "https://randomuser.me/api/portraits/men/23.jpg"
     },
     {
+      "id": 15,
       "name": "Mr. Aman Garg",
       "role": "Member, General Committee",
-      "bio": "Young visionary fostering innovation, leadership, and digital inclusion across regions.",
+      "bio": {
+        "short": "Young visionary fostering innovation, leadership, and digital inclusion across regions.",
+        "breif": "Mr. Aman Garg promotes innovation, leadership, and digital inclusion to empower communities."
+      },
+      "education": [
+        "MBA in Innovation Management",
+        "Certificate in Digital Inclusion"
+      ],
       "social": [
         "twitter",
         "facebook"
@@ -520,9 +751,17 @@
   ],
   "founders-global": [
     {
+      "id": 1,
       "name": "Mrs. Pratigya Mishra",
       "role": "Founder & President",
-      "bio": "A visionary leader dedicated to empowering rural youth through education, digital literacy, and equal opportunities.",
+      "bio": {
+        "short": "A visionary leader dedicated to empowering rural youth through education, digital literacy, and equal opportunities.",
+        "breif": "Mrs. Pratigya Mishra has been the driving force behind the foundation’s mission, working tirelessly to create educational programs and digital literacy initiatives that uplift rural communities."
+      },
+      "education": [
+        "M.A. in Social Work",
+        "Certificate in Leadership Development"
+      ],
       "social": [
         "linkedin",
         "instagram",
@@ -531,9 +770,17 @@
       "image": "https://randomuser.me/api/portraits/women/31.jpg"
     },
     {
+      "id": 2,
       "name": "Mr. Ashish Mishra",
       "role": "Co-Founder",
-      "bio": "A tech-savvy mentor focused on bridging the digital gap and guiding students toward modern careers and skills.",
+      "bio": {
+        "short": "A tech-savvy mentor focused on bridging the digital gap and guiding students toward modern careers and skills.",
+        "breif": "Mr. Ashish Mishra co-founded the foundation with a vision to integrate technology and education, mentoring youth to succeed in today’s digital world."
+      },
+      "education": [
+        "B.Tech in Computer Science",
+        "Diploma in Digital Education"
+      ],
       "social": [
         "linkedin",
         "facebook"
@@ -541,9 +788,17 @@
       "image": "https://randomuser.me/api/portraits/men/30.jpg"
     },
     {
+      "id": 3,
       "name": "Mr. Tarun Oberoi",
       "role": "Co-Founder & Vice President",
-      "bio": "A strategic changemaker committed to expanding educational access and driving social transformation in underserved communities.",
+      "bio": {
+        "short": "A strategic changemaker committed to expanding educational access and driving social transformation in underserved communities.",
+        "breif": "Mr. Tarun Oberoi plays a key role in shaping the foundation’s strategies and expanding its reach to serve more communities with quality education and social programs."
+      },
+      "education": [
+        "MBA in Management",
+        "Certificate in Social Entrepreneurship"
+      ],
       "social": [
         "twitter",
         "linkedin"

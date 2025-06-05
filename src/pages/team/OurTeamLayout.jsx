@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TeamIdentity from '../../components/ui/TeamIdentity'
 import '../../styles/ourteam.css'
+import TeamCompleteDetails from '../../components/ui/TeamCompleteDetails';
 const OurTeamLayout = ({ state }) => {
     const { content, loading, error } = state;
     if (loading) return <div>Loading...</div>;
@@ -36,6 +37,7 @@ const OurTeamLayout = ({ state }) => {
                         })
                     }
                 </div>
+                <TeamCompleteDetails/>
             </div>
         </>
 

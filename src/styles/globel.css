@@ -4,7 +4,7 @@
   --primary-dark: #a83a49;
   --primary-rgb: 128, 0, 0;
   --primary-dark-rgb: 168, 58, 73;
-  --secondary: #FCA401;
+  --secondary: #fca401;
   --accent: #FF5252;
   --error: #e74c3c;
   --light: #FAF9F6;
@@ -26,6 +26,9 @@
   --text-2xl: 1.5rem;
   --text-3xl: 1.875rem;
   --text-4xl: 2.25rem;
+  --radius: 20px;
+  --radius-sm: 8px;
+  --transition: all 0.3s ease;
 }
 
 /* Utility Classes */

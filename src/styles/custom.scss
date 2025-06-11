@@ -1,24 +1,26 @@
-
-// Primary Color Palette Adapted from Durga Foundation
-$primary: #A83A49; // Warm red — primary buttons, links, CTA
-$dark: #800000 ; // Deep maroon — navbars, footers
-$secondary: #CDAC5F; // Warm gold — highlights, icons, accents
+// Primary Color Palette Adapted from :root
+$primary: #800000; // Deep maroon — primary buttons, links, CTA
+$primary-dark: #A83A49; // Warm red — darker shade
+$secondary: #fca401; // Bright gold — highlights, icons, accents
+$accent: #FF5252; // Accent red — for alerts or emphasis
+$error: #e74c3c; // Error red — validation, alerts
 
 // Supporting & Feedback Colors
-$success: #FFF5E3; // Soft cream — background highlights, success messages
-$info: #C3A078; // Soft brown — overlays or neutral highlights
-$light: #FFF9F5; // Very light beige — for cards or subtle backgrounds
+$success: #FFF5E3; // Light cream — success background
+$info: #C3A078; // Soft brown — neutral highlights
+$light: #FAF9F6; // Very light beige — base backgrounds
+$white: #FFFFFF; // Pure white
 
 // Grays for Text and Borders
-$gray-100: #EDEDED;
-$gray-700: #777777;
-$gray-900: #333333;
+$gray-100: #E0E0E0; // Light gray — borders
+$gray-700: #616161; // Muted text
+$gray-900: #212121; // Primary text
 
 // Body & Typography Defaults
 $body-bg: $light;
 $body-color: $gray-900;
 $link-color: $primary;
-$link-hover-color: darken($primary, 10%);
+$link-hover-color: adjust-color($primary, $lightness: -10%);
 
 // Typography
 $font-family-base: 'Segoe UI', sans-serif;
@@ -29,8 +31,9 @@ $line-height-base: 1.5;
 $btn-border-radius: 0.375rem;
 $card-bg: $light;
 $card-border-color: $gray-100;
-$nav-link-color: #FFFFFF;
-$nav-link-hover-color:$secondary;
+$nav-link-color: $white;
+$nav-link-hover-color: $secondary;
+
 // Spacing & Layout
 $spacer: 1rem;
 $grid-gutter-width: 1.5rem;
@@ -51,3 +54,4 @@ $grid-breakpoints: (
   background: $gray-700;
 }
 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

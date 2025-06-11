@@ -66,6 +66,8 @@ import {
   faShapes,
   faFilePen,
   faUserGear,
+  faX,
+  faRefresh,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -73,6 +75,10 @@ import {
   faInstagram,
   faLinkedin,
   faGithub,
+  faYoutube,
+  faWhatsapp,
+  faQuora,
+  faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const iconMap = {
@@ -151,10 +157,15 @@ export const iconMap = {
   childReaching: faChildReaching,
   desktop: faDesktop,
   universalAccess: faUniversalAccess,
-  peopleCarry:faPeopleCarry,
-  handHoldingDollar:faHandHoldingDollar,
-  laptopFile:faLaptopFile,
-  shapes:faShapes,
-  filePen:faFilePen,
-  useGear:faUserGear,
+  peopleCarry: faPeopleCarry,
+  handHoldingDollar: faHandHoldingDollar,
+  laptopFile: faLaptopFile,
+  shapes: faShapes,
+  filePen: faFilePen,
+  useGear: faUserGear,
+  youtube: faYoutube,
+  whatsapp: faWhatsapp,
+  twitterX:faXTwitter,
+  quora:faQuora,
+  reload:faRefresh
 };

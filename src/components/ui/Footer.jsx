@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { iconMap } from "../../hooks/iconmap";
 
@@ -14,6 +15,36 @@ const Footer = () => {
                 Empowering communities through sustainable development and
                 compassionate action since 2015.
               </p>
+              <div className="social-links d-flex gap-3 mt-auto flex-wrap">
+                <a href="https://x.com/DurgaFoundation"
+                  className="text-decoration-none bg-secondary text-white" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={iconMap['twitterX']} />
+                </a>
+                <a href="https://www.instagram.com/durgafoundationngo/"
+                  className="text-decoration-none bg-secondary text-white" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={iconMap['instagram']} />
+                </a>
+                <a href="https://www.facebook.com/durgafoundationngo/"
+                  className="text-decoration-none bg-secondary text-white" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={iconMap['facebook']} />
+                </a>
+                <a href="https://in.linkedin.com/company/durgafoundation-education-for-all"
+                  className="text-decoration-none bg-secondary text-white" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={iconMap['linkedin']} />
+                </a>
+                <a href="https://whatsapp.com/channel/0029Va5qpUN7YSd8Pe7Bui3M" target="_blank" rel="noopener noreferrer"
+                  className="text-decoration-none bg-secondary text-white">
+                  <FontAwesomeIcon icon={iconMap['whatsapp']} />
+                </a>
+                <a href="https://www.youtube.com/@DurgaFoundation"
+                  className="text-decoration-none bg-secondary text-white" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={iconMap['youtube']} />
+                </a>
+                <a href="https://durgafoundation.quora.com/"
+                  className="text-decoration-none bg-secondary text-white" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={iconMap['quora']} />
+                </a>
+              </div>
             </div>
 
             <div className="col-lg-2 col-md-4">

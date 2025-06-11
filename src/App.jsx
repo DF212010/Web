@@ -6,6 +6,7 @@ import Test from "../tests/Test"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./styles/globel.css";
+// import "./styles/custom.css"
 import Loader from "./components/ui/Loader";
 
 function App() {
